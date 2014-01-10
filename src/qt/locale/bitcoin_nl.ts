@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">Over Bitcoin</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt; versie</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -92,10 +84,6 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>&amp;Nieuw Adres</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Dit zijn uw Bitcoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
-    </message>
-    <message>
         <location line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopiëer Adres</translation>
@@ -104,10 +92,6 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>Toon &amp;QR-Code</translation>
-    </message>
-    <message>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation type="obsolete">Onderteken een bericht om te bewijzen dat u een bepaald Bitcoinadres bezit</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -135,10 +119,6 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>&amp;Exporteer</translation>
     </message>
     <message>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation type="obsolete">Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoinadres het bericht heeft ondertekend.</translation>
-    </message>
-    <message>
         <location line="-41"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Verifiëer Bericht</translation>
@@ -147,10 +127,6 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>&amp;Verwijder</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="obsolete">Dit zijn uw Bitcoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw bitcoins verzendt.</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+58"/>
@@ -284,10 +260,6 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW BITCOINS VERLIEZEN&lt;/b&gt;!</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
@@ -318,10 +290,6 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Portemonnee versleuteld</translation>
-    </message>
-    <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Bitcoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw bitcoins stelen.</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -368,17 +336,17 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>&amp;Onderteken bericht...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Synchroniseren met netwerk...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>&amp;Overzicht</translation>
     </message>
@@ -418,11 +386,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Programma afsluiten</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Laat informatie zien over Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>Over &amp;Qt</translation>
     </message>
@@ -452,7 +416,27 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>&amp;Wijzig Wachtwoord</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation>Blokken aan het importeren vanaf harde schijf...</translation>
     </message>
@@ -462,15 +446,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Bezig met herindexeren van blokken op harde schijf...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Verstuur munten naar een Bitcoinadres</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Wijzig instellingen van Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>&amp;Backup portemonnee naar een andere locatie</translation>
     </message>
@@ -495,11 +471,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>&amp;Verifiëer bericht...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Portemonnee</translation>
     </message>
@@ -519,11 +491,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>&amp;Adressen</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">&amp;Over Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Toon / Verberg</translation>
     </message>
@@ -538,15 +506,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Versleutel de geheime sleutels die bij uw portemonnee horen</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="obsolete">Onderteken berichten met uw Bitcoinadressen om te bewijzen dat u deze adressen bezit</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="obsolete">Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Bitcoinadressen</translation>
-    </message>
-    <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>&amp;Bestand</translation>
     </message>
@@ -556,7 +516,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>&amp;Instellingen</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>&amp;Hulp</translation>
     </message>
@@ -572,18 +532,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>[testnetwerk]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Bitcoin client</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n actieve connectie naar Bitcoinnetwerk</numerusform>
-            <numerusform>%n actieve connecties naar Bitcoinnetwerk</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation>Geen bron van blokken beschikbaar...</translation>
     </message>
@@ -662,13 +611,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Bijgewerkt</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -683,7 +632,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -708,27 +657,17 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -781,10 +720,6 @@ Adres: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="obsolete">URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Bitcoinadres of misvormde URI-parameters.</translation>
-    </message>
-    <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;</translation>
@@ -793,10 +728,6 @@ Adres: %4
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;gesloten&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation type="obsolete">Er is een fatale fout opgetreden. Bitcoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -870,10 +801,6 @@ Adres: %4
         <translation>Het opgegeven adres &quot;%1&quot; bestaat al in uw adresboek.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">Het opgegeven adres &quot;%1&quot; is een ongeldig Bitcoinadres</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>Kon de portemonnee niet openen.</translation>
@@ -886,10 +813,6 @@ Adres: %4
 </context>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <source>Bitcoin-Qt</source>
-        <translation type="obsolete">Bitcoin-Qt</translation>
-    </message>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <source>version</source>
@@ -955,14 +878,6 @@ Adres: %4
         <translation>Betaal &amp;transactiekosten</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Start Bitcoin automatisch na inloggen in het systeem</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">Start &amp;Bitcoin bij het inloggen in het systeem</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation>Reset alle clientopties naar de standaardinstellingen.</translation>
@@ -978,17 +893,9 @@ Adres: %4
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Open de Bitcoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Portmapping via &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="obsolete">Verbind met het Bitcoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -1091,10 +998,6 @@ Adres: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Bitcoin herstart wordt.</translation>
-    </message>
-    <message>
         <location line="-22"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Eenheid om bedrag in te tonen:</translation>
@@ -1103,10 +1006,6 @@ Adres: %4
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Kies de standaard onderverdelingseenheid om weer te geven in uw programma, en voor het versturen van munten</translation>
-    </message>
-    <message>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation type="obsolete">Of Bitcoinadressen getoond worden in de transactielijst</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1161,10 +1060,6 @@ Adres: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Deze instelling zal pas van kracht worden na het herstarten van Bitcoin.</translation>
-    </message>
-    <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>Het opgegeven proxyadres is ongeldig.</translation>
@@ -1176,10 +1071,6 @@ Adres: %4
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Vorm</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Bitcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="+92"/>
@@ -1236,10 +1127,6 @@ Adres: %4
 </context>
 <context>
     <name>PaymentServer</name>
-    <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="obsolete">Kan bitcoin niet starten: click-to-pay handler</translation>
-    </message>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start bytecoin: click-to-pay handler</source>
@@ -1411,10 +1298,6 @@ Adres: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation type="obsolete">Toon het BitcoinQt-hulpbericht voor een lijst met mogelijke Bitcoin commandoregel-opties.</translation>
-    </message>
-    <message>
         <location line="+3"/>
         <source>&amp;Show</source>
         <translation>&amp;Toon</translation>
@@ -1430,30 +1313,14 @@ Adres: %4
         <translation>Bouwdatum</translation>
     </message>
     <message>
-        <source>Bitcoin - Debug window</source>
-        <translation type="obsolete">Bitcoin-debugscherm</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation type="obsolete">Bitcoin Kern</translation>
-    </message>
-    <message>
         <location line="+200"/>
         <source>Debug log file</source>
         <translation>Debug-logbestand</translation>
     </message>
     <message>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="obsolete">Open het Bitcoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
-    </message>
-    <message>
         <location line="+109"/>
         <source>Clear console</source>
         <translation>Maak console leeg</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">Welkom bij de Bitcoin RPC-console.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
@@ -1599,10 +1466,6 @@ Adres: %4
         <translation>Betaal &amp;Aan:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Het adres waaraan u wilt betalen  (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location line="+94"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1644,10 +1507,6 @@ Adres: %4
         <translation>Verwijder deze ontvanger</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Vul een Bitcoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1669,10 +1528,6 @@ Adres: %4
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>U kunt berichten ondertekenen met een van uw adressen om te bewijzen dat u dit adres bezit. Pas op dat u geen onduidelijke dingen ondertekent, want phishingaanvallen zouden u kunnen misleiden om zo uw identiteit te stelen. Onderteken alleen berichten waarmee u het volledig eens bent.</translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Het adres om het bericht mee te ondertekenen (Vb.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L).</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1732,10 +1587,6 @@ Adres: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="obsolete">Onderteken een bericht om te bewijzen dat u een bepaald Bitcoinadres bezit</translation>
-    </message>
-    <message>
         <location line="-143"/>
         <source>Sign &amp;Message</source>
         <translation>Onderteken &amp;Bericht</translation>
@@ -1762,14 +1613,6 @@ Adres: %4
         <translation>Voer het ondertekenende adres, bericht en handtekening hieronder in (let erop dat u nieuwe regels, spaties en tabs juist overneemt) om de handtekening te verifiëren. Let erop dat u niet meer uit het bericht interpreteert dan er daadwerkelijk staat,  om te voorkomen dat u wordt misleid in een man-in-the-middle-aanval.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Het adres waarmee bet bericht was ondertekend (Vb.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L).</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="obsolete">Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoinadres het bericht heeft ondertekend.</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation>Verifiëer &amp;Bericht</translation>
@@ -1780,17 +1623,9 @@ Adres: %4
         <translation>Verwijder alles in de invulvelden</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Vul een Bitcoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Klik &quot;Onderteken Bericht&quot; om de handtekening te genereren</translation>
-    </message>
-    <message>
-        <source>Enter Bitcoin signature</source>
-        <translation type="obsolete">Voer Bitcoin-handtekening in</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -1872,10 +1707,6 @@ Adres: %4
 </context>
 <context>
     <name>SplashScreen</name>
-    <message>
-        <source>The Bitcoin developers</source>
-        <translation type="obsolete">De Bitcoin-ontwikkelaars</translation>
-    </message>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Bytecoin developers</source>
@@ -2430,17 +2261,9 @@ Adres: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Bitcoinversie</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Gebruik:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Stuur commando naar -server of bitcoind</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2456,16 +2279,6 @@ Adres: %4
         <location line="+24"/>
         <source>Options:</source>
         <translation>Opties:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Specificeer configuratiebestand (standaard: bitcoin.conf)
-</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">Specificeer pid-bestand (standaard: bitcoind.pid)
-</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2538,28 +2351,6 @@ Adres: %4
         <translation>Accepteer verbindingen van buitenaf (standaard: 1 als geen -proxy of -connect is opgegeven)</translation>
     </message>
     <message>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
-</source>
-        <translation type="obsolete">%s, u moet een RPC-wachtwoord instellen in het configuratiebestand: %s
-U wordt aangeraden het volgende willekeurige wachtwoord te gebruiken:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(u hoeft dit wachtwoord niet te onthouden)
-De gebruikersnaam en wachtwoord mogen niet hetzelfde zijn.
-Als het bestand niet bestaat, make hem dan aan met leesrechten voor enkel de eigenaar.
-Het is ook aan te bevelen &quot;alertnotify&quot; in te stellen zodat u op de hoogte gesteld wordt van problemen;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com</translation>
-    </message>
-    <message>
         <location line="-63"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Er is een fout opgetreden tijdens het instellen van de inkomende RPC-poort %u op IPv6, terugval naar IPv4: %s</translation>
@@ -2568,10 +2359,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Bind aan opgegeven adres en luister er altijd op. Gebruik [host]:port notatie voor IPv6</translation>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Kan geen lock op de datamap %s verkrijgen. Bitcoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2612,10 +2399,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Waarschuwing: Weergegeven transacties zijn mogelijk niet correct! Mogelijk dient u te upgraden, of andere nodes dienen te upgraden.</translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Bitcoin niet correct werken.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2923,10 +2706,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Voorzie de debuggingsuitvoer van een tijdsaanduiding</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="obsolete">SSL-opties: (zie de Bitcoin wiki voor SSL-instructies)</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation>Selecteer de versie van de SOCKS-proxy om te gebruiken (4 of 5, standaard is 5)</translation>
@@ -3117,14 +2896,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Fout bij laden wallet.dat: Portemonnee corrupt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Bitcoin</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">Portemonnee moest herschreven worden: Herstart Bitcoin om te voltooien</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>Fout bij laden wallet.dat</translation>
@@ -3178,10 +2949,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Voeg een node om naar te verbinden toe en probeer de verbinding open te houden</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Niet in staat om aan %s te binden op deze computer. Bitcoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+39"/>

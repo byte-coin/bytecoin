@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">बिटकोइन के संबंध में</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">बिटकोइन वर्सन</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -339,17 +331,17 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>नेटवर्क से समकालिक (मिल) रहा है ...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>&amp;विवरण</translation>
     </message>
@@ -390,11 +382,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>अप्लिकेशन से बाहर निकलना !</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">बीटकोइन के बारे में जानकारी !</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation type="unfinished"></translation>
     </message>
@@ -424,7 +412,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+319"/>
         <source>Importing blocks from disk...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -434,7 +422,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation type="unfinished"></translation>
     </message>
@@ -459,11 +447,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">बीटकोइन</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>वॉलेट</translation>
     </message>
@@ -483,7 +467,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation type="unfinished"></translation>
     </message>
@@ -498,7 +482,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+17"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>&amp;File</source>
         <translation>&amp;फाइल</translation>
     </message>
@@ -508,7 +512,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;सेट्टिंग्स</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>&amp;मदद</translation>
     </message>
@@ -523,15 +527,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>[testnet]</source>
         <translation>[टेस्टनेट]</translation>
     </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n सक्रिया संपर्क बीटकोइन नेटवर्क से</numerusform>
-            <numerusform>%n सक्रिया संपर्क बीटकोइन नेटवर्क से</numerusform>
-        </translation>
-    </message>
     <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -610,13 +607,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>नवीनतम</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -631,7 +628,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -656,27 +653,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -821,10 +808,6 @@ Address: %4
 </context>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <source>Bitcoin-Qt</source>
-        <translation type="obsolete">बीटकोइन-Qt</translation>
-    </message>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <source>version</source>
@@ -1520,10 +1503,6 @@ Address: %4
         <translation>प्राप्तकर्ता हटायें</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Bitcoin एड्रेस लिखें (उदाहरण: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1638,10 +1617,6 @@ Address: %4
         <location line="+14"/>
         <source>Reset all verify message fields</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Bitcoin एड्रेस लिखें (उदाहरण: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
@@ -2282,17 +2257,9 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">बीटकोइन  संस्करण</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>खपत :</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">-server या bitcoind को कमांड भेजें</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2308,14 +2275,6 @@ Address: %4
         <location line="+24"/>
         <source>Options:</source>
         <translation>विकल्प:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">configuraion की फाइल का विवरण दें (default: bitcoin.conf)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">pid फाइल का विवरण दें (default: bitcoin.pid)</translation>
     </message>
     <message>
         <location line="+26"/>

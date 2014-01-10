@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">Despre Bitcoin</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt; versiunea</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -87,10 +79,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Adresă nouă</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Acestea sunt adresele dumneavoastră Bitcoin pentru a primi plăţi. Dacă doriţi, puteți da o adresa diferită fiecărui expeditor, pentru a putea ţine evidenţa plăţilor.</translation>
-    </message>
-    <message>
         <location line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Copiază adresa</translation>
@@ -99,10 +87,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>Arata codul QR</translation>
-    </message>
-    <message>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation type="obsolete">Semneaza mesajul pentru a dovedi ca detii aceasta adresa Bitocin</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -128,10 +112,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+3"/>
         <source>&amp;Export</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation type="obsolete">Verifica mesajul pentru a te asigura ca a fost insemnat cu o adresa bitcoin specifica</translation>
     </message>
     <message>
         <location line="-41"/>
@@ -275,10 +255,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Confirmă criptarea portofelului.</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">Atenție: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE BITCOIN ACUMULATĂ&lt;/b&gt;!</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Sunteţi sigur că doriţi să criptaţi portofelul electronic?</translation>
@@ -309,10 +285,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Portofel criptat </translation>
-    </message>
-    <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Bitcoin se va închide acum pentru a termina procesul de criptare. Amintiți-vă că criptarea portofelului dumneavoastră nu poate proteja în totalitate bitcoins dvs. de a fi furate de intentii rele.</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -359,17 +331,17 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>Semneaza &amp;mesaj...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Se sincronizează cu reţeaua...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>&amp;Detalii</translation>
     </message>
@@ -409,11 +381,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Părăsiţi aplicaţia</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Informaţii despre Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>Despre &amp;Qt</translation>
     </message>
@@ -443,7 +411,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Schimbă parola...</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation>Importare blocks de pe disk...</translation>
     </message>
@@ -453,15 +441,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">&amp;Trimiteţi Bitcoin către o anumită adresă</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Modifică setările pentru Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>Creaza copie de rezerva a portofelului intr-o locatie diferita</translation>
     </message>
@@ -486,11 +466,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Verifica mesajul</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Portofelul</translation>
     </message>
@@ -510,11 +486,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">&amp;Despre Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation>Arata/Ascunde</translation>
     </message>
@@ -529,7 +501,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>&amp;Fişier</translation>
     </message>
@@ -539,7 +511,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Setări</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>&amp;Ajutor</translation>
     </message>
@@ -555,19 +527,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Client Bitcoin</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n active connections to Bitcoin network</numerusform>
-            <numerusform>%n active connections to Bitcoin network</numerusform>
-            <numerusform>%n active connections to Bitcoin network</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -649,13 +609,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Actualizat</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -670,7 +630,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -695,27 +655,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -846,10 +796,6 @@ Address: %4
         <translation>Adresa introdusă &quot;%1&quot; se află deja în Lista de adrese.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">Adresa introdusă &quot;%1&quot; nu este o adresă bitcoin valabilă.</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>Portofelul electronic nu a putut fi deblocat .</translation>
@@ -862,10 +808,6 @@ Address: %4
 </context>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <source>Bitcoin-Qt</source>
-        <translation type="obsolete">Bitcoin-Qt</translation>
-    </message>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <source>version</source>
@@ -931,14 +873,6 @@ Address: %4
         <translation>Plăteşte comision pentru tranzacţie &amp;f</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Porneşte automat programul Bitcoin la pornirea computerului.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">&amp;S Porneşte Bitcoin la pornirea sistemului</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation type="unfinished"></translation>
@@ -954,17 +888,9 @@ Address: %4
         <translation>&amp;Retea</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Deschide automat în router portul aferent clientului Bitcoin. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapeaza portul folosind &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="obsolete">Conectare la reţeaua Bitcoin folosind un proxy SOCKS (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -1067,10 +993,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Limba interfeței utilizatorului poate fi setat aici. Această setare va avea efect după repornirea Bitcoin.</translation>
-    </message>
-    <message>
         <location line="-22"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Unitatea de măsură pentru afişarea sumelor:</translation>
@@ -1079,10 +1001,6 @@ Address: %4
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de bitcoin.</translation>
-    </message>
-    <message>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation type="obsolete">Vezi dacă adresele Bitcoin sunt în lista de tranzacție sau nu</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1148,10 +1066,6 @@ Address: %4
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Form</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">Informațiile afișate pot fi expirate. Portofelul tău se sincronizează automat cu rețeaua Bitcoin după ce o conexiune este stabilita, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <location line="+92"/>
@@ -1379,10 +1293,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation type="obsolete">Arata mesajul de ajutor Bitcoin-QT pentru a obtine o lista cu posibilele optiuni ale comenzilor Bitcoin</translation>
-    </message>
-    <message>
         <location line="+3"/>
         <source>&amp;Show</source>
         <translation>&amp; Arata</translation>
@@ -1398,30 +1308,14 @@ Address: %4
         <translation>Construit la data:</translation>
     </message>
     <message>
-        <source>Bitcoin - Debug window</source>
-        <translation type="obsolete">Bitcoin-Fereastra pentru debug</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation type="obsolete">Bitcoin Core</translation>
-    </message>
-    <message>
         <location line="+200"/>
         <source>Debug log file</source>
         <translation>Loguri debug</translation>
     </message>
     <message>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="obsolete">Deschide logurile debug din directorul curent. Aceasta poate dura cateva secunde pentru fisierele mai mari</translation>
-    </message>
-    <message>
         <location line="+109"/>
         <source>Clear console</source>
         <translation>Curata consola</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">Bun venit la consola bitcoin RPC</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
@@ -1608,10 +1502,6 @@ Address: %4
         <translation>Şterge destinatarul</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Introduceţi o adresă Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1633,10 +1523,6 @@ Address: %4
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Introduceţi o adresă Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1696,10 +1582,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="obsolete">Semneaza mesajul pentru a dovedi ca detii acesta adresa Bitcoin</translation>
-    </message>
-    <message>
         <location line="-143"/>
         <source>Sign &amp;Message</source>
         <translation type="unfinished">Semneaza mesajul</translation>
@@ -1726,14 +1608,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Introduceţi o adresă Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="obsolete">Verifica mesajul pentru a fi sigur ca a fost semnat cu adresa Bitcoin specifica</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation type="unfinished"></translation>
@@ -1744,17 +1618,9 @@ Address: %4
         <translation>Reseteaza toate spatiile mesajelor semnate.</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Introduceţi o adresă Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Click &quot;Semneaza msajul&quot; pentru a genera semnatura</translation>
-    </message>
-    <message>
-        <source>Enter Bitcoin signature</source>
-        <translation type="obsolete">Introduce semnatura bitocin</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2395,17 +2261,9 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">versiunea Bitcoin</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Uz:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Trimite comanda la -server sau bitcoind</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2421,10 +2279,6 @@ Address: %4
         <location line="+24"/>
         <source>Options:</source>
         <translation>Setări:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Specifica-ți configurația fisierului (in mod normal: bitcoin.conf)</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2853,10 +2707,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Copie de ieșire de depanare cu timestamp</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="obsolete">Optiuni SSl (vezi Bitcoin wiki pentru intructiunile de instalare)</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation>Selecteaza versiunea socks-ului pe care vrei sa il folosesti (4-5, initial: 5)</translation>
@@ -3049,14 +2899,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Eroare incarcand wallet.dat: Portofel corupt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">Eroare incarcare wallet.dat: Portofelul are nevoie de o versiune Bitcoin mai noua</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">Portofelul trebuie rescris: restarteaza aplicatia bitcoin pentru a face asta.</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>Eroare incarcand wallet.dat</translation>
@@ -3112,10 +2954,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Add a node to connect to and attempt to keep the connection open
 details suggestions history
 </translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Imposibilitatea de a lega la% s pe acest computer. Bitcoin este, probabil, deja în execuție.</translation>
     </message>
     <message>
         <location line="+39"/>

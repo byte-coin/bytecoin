@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">O Bitcoinu</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt; verze</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -92,10 +84,6 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation>Nová &amp;adresa</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Tohle jsou tvé Bitcoinové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
-    </message>
-    <message>
         <location line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopíruj adresu</translation>
@@ -104,10 +92,6 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>Zobraz &amp;QR kód</translation>
-    </message>
-    <message>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation type="obsolete">Podepiš zprávu, čímž prokážeš, že jsi vlastníkem Bitcoinové adresy</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -135,10 +119,6 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation>&amp;Export</translation>
     </message>
     <message>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation type="obsolete">Ověř zprávu, aby ses ujistil, že byla podepsána danou Bitcoinovou adresou</translation>
-    </message>
-    <message>
         <location line="-41"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Ověř zprávu</translation>
@@ -147,10 +127,6 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>S&amp;maž</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="obsolete">Tohle jsou tvé Bitcoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+58"/>
@@ -284,10 +260,6 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation>Potvrď zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">Varování: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY BITCOINY&lt;/b&gt;!</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Jsi si jistý, že chceš peněženku zašifrovat?</translation>
@@ -318,10 +290,6 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Peněženka je zašifrována</translation>
-    </message>
-    <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Bitcoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých bitcoinů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -368,17 +336,17 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>Po&amp;depiš zprávu...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Synchronizuji se se sítí...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>&amp;Přehled</translation>
     </message>
@@ -418,11 +386,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation>Ukonči aplikaci</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Zobraz informace o Bitcoinu</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>O &amp;Qt</translation>
     </message>
@@ -452,7 +416,27 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation>Změň &amp;heslo...</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation>Importuji bloky z disku...</translation>
     </message>
@@ -462,15 +446,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation>Vytvářím nový index bloků na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Pošli mince na Bitcoinovou adresu</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Uprav nastavení Bitcoinu</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>Zazálohuj peněženku na jiné místo</translation>
     </message>
@@ -495,11 +471,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation>&amp;Ověř zprávu...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Peněženka</translation>
     </message>
@@ -519,11 +491,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation>&amp;Adresy</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">O &amp;Bitcoinu</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Zobraz/Skryj</translation>
     </message>
@@ -538,15 +506,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation>Zašifruj soukromé klíče ve své peněžence</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="obsolete">Podepiš zprávy svými Bitcoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="obsolete">Ověř zprávy, aby ses ujistil, že byly podepsány danými Bitcoinovými adresami</translation>
-    </message>
-    <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>&amp;Soubor</translation>
     </message>
@@ -556,7 +516,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation>&amp;Nastavení</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>Ná&amp;pověda</translation>
     </message>
@@ -572,19 +532,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Bitcoin klient</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n aktivní spojení do Bitcoinové sítě</numerusform>
-            <numerusform>%n aktivní spojení do Bitcoinové sítě</numerusform>
-            <numerusform>%n aktivních spojení do Bitcoinové sítě</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation>Není dostupný žádný zdroj bloků...</translation>
     </message>
@@ -666,13 +614,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation>Aktuální</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -687,7 +635,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -712,27 +660,17 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -786,10 +724,6 @@ Adresa: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="obsolete">Nepodařilo se analyzovat URI! Důvodem může být neplatná Bitcoinová adresa nebo poškozené parametry URI.</translation>
-    </message>
-    <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;odemčená&lt;/b&gt;</translation>
@@ -798,10 +732,6 @@ Adresa: %4
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;zamčená&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation type="obsolete">Stala se fatální chyba. Bitcoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -875,10 +805,6 @@ Adresa: %4
         <translation>Zadaná adresa &quot;%1&quot; už v adresáři je.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">Zadaná adresa &quot;%1&quot; není platná Bitcoinová adresa.</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>Nemohu odemknout peněženku.</translation>
@@ -891,10 +817,6 @@ Adresa: %4
 </context>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <source>Bitcoin-Qt</source>
-        <translation type="obsolete">Bitcoin-Qt</translation>
-    </message>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <source>version</source>
@@ -960,14 +882,6 @@ Adresa: %4
         <translation>Platit &amp;transakční poplatek</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Automaticky spustí Bitcoin po přihlášení do systému.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">S&amp;pustit Bitcoin po přihlášení do systému</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation>Vrátí všechny volby na výchozí hodnoty.</translation>
@@ -983,17 +897,9 @@ Adresa: %4
         <translation>&amp;Síť</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Namapovat port přes &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="obsolete">Připojí se do Bitcoinové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -1096,10 +1002,6 @@ Adresa: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Bitcoinu.</translation>
-    </message>
-    <message>
         <location line="-22"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>J&amp;ednotka pro částky: </translation>
@@ -1108,10 +1010,6 @@ Adresa: %4
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Zvol výchozí podjednotku, která se bude zobrazovat v programu a při posílání mincí.</translation>
-    </message>
-    <message>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation type="obsolete">Zda ukazovat bitcoinové adresy ve výpisu transakcí nebo ne.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1166,10 +1064,6 @@ Adresa: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Nastavení se projeví až po restartování Bitcoinu.</translation>
-    </message>
-    <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>Zadaná adresa proxy je neplatná.</translation>
@@ -1181,10 +1075,6 @@ Adresa: %4
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Formulář</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s Bitcoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
         <location line="+92"/>
@@ -1241,10 +1131,6 @@ Adresa: %4
 </context>
 <context>
     <name>PaymentServer</name>
-    <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="obsolete">Nemůžu spustit bitcoin: obsluha click-to-pay</translation>
-    </message>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start bytecoin: click-to-pay handler</source>
@@ -1416,10 +1302,6 @@ Adresa: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation type="obsolete">Seznam parametrů Bitcoinu pro příkazovou řádku získáš v nápovědě Bitcoinu Qt.</translation>
-    </message>
-    <message>
         <location line="+3"/>
         <source>&amp;Show</source>
         <translation>&amp;Zobrazit</translation>
@@ -1435,30 +1317,14 @@ Adresa: %4
         <translation>Datum kompilace</translation>
     </message>
     <message>
-        <source>Bitcoin - Debug window</source>
-        <translation type="obsolete">Bitcoin - ladicí okno</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation type="obsolete">Jádro Bitcoinu</translation>
-    </message>
-    <message>
         <location line="+200"/>
         <source>Debug log file</source>
         <translation>Soubor s ladicími záznamy</translation>
     </message>
     <message>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="obsolete">Otevři soubor s ladicími záznamy Bitcoinu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
-    </message>
-    <message>
         <location line="+109"/>
         <source>Clear console</source>
         <translation>Vyčistit konzoli</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">Vítej v Bitcoinové RPC konzoli.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
@@ -1604,10 +1470,6 @@ Adresa: %4
         <translation>&amp;Komu:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Adresa příjemce (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location line="+94"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1649,10 +1511,6 @@ Adresa: %4
         <translation>Smaž tohoto příjemce</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Zadej Bitcoinovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1674,10 +1532,6 @@ Adresa: %4
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Podepsáním zprávy svými adresami můžeš prokázat, že je skutečně vlastníš. Buď opatrný a nepodepisuj nic vágního; například při phishingových útocích můžeš být lákán, abys něco takového podepsal. Podepisuj pouze zcela úplná a detailní prohlášení, se kterými souhlasíš.</translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Adresa, kterou se zpráva podepíše (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1737,10 +1591,6 @@ Adresa: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="obsolete">Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této Bitcoinové adresy</translation>
-    </message>
-    <message>
         <location line="-143"/>
         <source>Sign &amp;Message</source>
         <translation>Po&amp;depiš zprávu</translation>
@@ -1767,14 +1617,6 @@ Adresa: %4
         <translation>K ověření podpisu zprávy zadej podepisující adresu, zprávu (ověř si, že správně kopíruješ zalomení řádků, mezery, tabulátory apod.) a podpis. Dávej pozor na to, abys nezkopíroval do podpisu víc, než co je v samotné podepsané zprávě, abys nebyl napálen man-in-the-middle útokem.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Adresa, kterou je zpráva podepsána (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="obsolete">Ověř zprávu, aby ses ujistil, že byla podepsána danou Bitcoinovou adresou</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation>O&amp;věř zprávu</translation>
@@ -1785,17 +1627,9 @@ Adresa: %4
         <translation>Vymaž všechna pole formuláře pro ověření zrávy</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Zadej Bitcoinovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Kliknutím na &quot;Podepiš zprávu&quot; vygeneruješ podpis</translation>
-    </message>
-    <message>
-        <source>Enter Bitcoin signature</source>
-        <translation type="obsolete">Vlož Bitcoinový podpis</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -1877,10 +1711,6 @@ Adresa: %4
 </context>
 <context>
     <name>SplashScreen</name>
-    <message>
-        <source>The Bitcoin developers</source>
-        <translation type="obsolete">Vývojáři Bitcoinu</translation>
-    </message>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Bytecoin developers</source>
@@ -2440,17 +2270,9 @@ Adresa: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Verze Bitcoinu</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Užití:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Poslat příkaz pro -server nebo bitcoind</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2466,14 +2288,6 @@ Adresa: %4
         <location line="+24"/>
         <source>Options:</source>
         <translation>Možnosti:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Konfigurační soubor (výchozí: bitcoin.conf)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">PID soubor (výchozí: bitcoind.pid)</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2546,30 +2360,6 @@ Adresa: %4
         <translation>Přijímat spojení zvenčí (výchozí: 1, pokud není zadáno -proxy nebo -connect)</translation>
     </message>
     <message>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
-</source>
-        <translation type="obsolete">%s, musíš nastavit rpcpassword v konfiguračním souboru:
-%s
-Je vhodné použít následující náhodné heslo:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(není potřeba si ho pamatovat)
-rpcuser a rpcpassword NESMÍ být stejné.
-Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
-Je také doporučeno si nastavit alertnotify, abys byl upozorněn na případné problémy;
-například: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
-</translation>
-    </message>
-    <message>
         <location line="-63"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Při nastavování naslouchacího RPC portu %u pro IPv6 nastala chyba, vracím se k IPv4: %s</translation>
@@ -2578,10 +2368,6 @@ například: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Poslouchat na zadané adrese. Pro zápis IPv6 adresy použij notaci [adresa]:port</translation>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Nedaří se mi získat zámek na datový adresář %s. Bitcoin pravděpodobně už jednou běží.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2622,10 +2408,6 @@ například: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Upozornění: Zobrazené transakce nemusí být správné! Možná potřebuješ aktualizovat nebo ostatní uzly potřebují aktualizovat.</translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Bitcoin nebude fungovat správně.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2933,10 +2715,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Připojit před ladicí výstup časové razítko</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="obsolete">Možnosti SSL: (viz instrukce nastavení SSL v Bitcoin Wiki)</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation>Zvol verzi socks proxy (4-5, výchozí: 5)</translation>
@@ -3127,14 +2905,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Chyba při načítání wallet.dat: peněženka je poškozená</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Bitcoinu</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">Soubor s peněženkou potřeboval přepsat: restartuj Bitcoin, aby se operace dokončila</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>Chyba při načítání wallet.dat</translation>
@@ -3188,10 +2958,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Přidat uzel, ke kterému se připojit a snažit se spojení udržet</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Nedaří se mi připojit na %s na tomhle počítači. Bitcoin už pravděpodobně jednou běží.</translation>
     </message>
     <message>
         <location line="+39"/>

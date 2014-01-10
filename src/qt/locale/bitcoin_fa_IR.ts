@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">در مورد بیتکویین</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt; version</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -295,10 +287,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>تایید رمزگذاری</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Bitcoin برای اتمام فرایند رمزگذاری بسته خواهد شد. به خاطر داشته باشید که رمزگذاری WALLET شما،  کامپیوتر شما را از آلودگی به بدافزارها مصون نمی دارد.</translation>
-    </message>
-    <message>
         <location line="-43"/>
         <location line="+7"/>
         <location line="+42"/>
@@ -343,17 +331,17 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>امضا و پیام</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>به روز رسانی با شبکه...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>و بازبینی</translation>
     </message>
@@ -393,11 +381,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>از &quot;درخواست نامه&quot;/ application خارج شو</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">اطلاعات در مورد Bitcoin را نشان بده</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>درباره و QT</translation>
     </message>
@@ -427,7 +411,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>تغییر رمز/پَس فرِیز</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -437,11 +441,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">اصلاح انتخابها برای پیکربندی Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>گرفتن نسخه پیشتیبان در آدرسی دیگر</translation>
     </message>
@@ -466,11 +466,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">bitcoin</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>کیف پول</translation>
     </message>
@@ -490,11 +486,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">&amp;در مورد بیتکویین</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;نمایش/ عدم نمایش و</translation>
     </message>
@@ -509,7 +501,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>و فایل</translation>
     </message>
@@ -519,7 +511,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>و تنظیمات</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>و راهنما</translation>
     </message>
@@ -535,18 +527,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">مشتری bitcoin</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n ارتباط فعال به شبکه Bitcoin
-%n ارتباط فعال به شبکه Bitcoin</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -622,13 +603,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>روزآمد</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -643,7 +624,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -668,27 +649,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -816,10 +787,6 @@ Address: %4
         <location line="+5"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation>آدرس وارد شده %1 قبلا به فهرست آدرسها اضافه شده بوده است.</translation>
-    </message>
-    <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">آدرس وارد شده &quot;%1&quot; یک آدرس صحیح برای bitcoin نسشت</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1094,10 +1061,6 @@ Address: %4
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه bitcoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
-    </message>
-    <message>
         <location line="+92"/>
         <source>Balance:</source>
         <translation>مانده حساب:</translation>
@@ -1349,10 +1312,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">به کنسول آر.پی.سی. BITCOIN خوش آمدید</translation>
-    </message>
-    <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Bytecoin RPC console.</source>
         <translation type="unfinished"></translation>
@@ -1537,10 +1496,6 @@ Address: %4
         <translation>این گیرنده را حذف کن</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">یک آدرس bitcoin وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1562,10 +1517,6 @@ Address: %4
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">یک آدرس bitcoin وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1651,10 +1602,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">یک آدرس bitcoin وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation type="unfinished"></translation>
@@ -1663,10 +1610,6 @@ Address: %4
         <location line="+14"/>
         <source>Reset all verify message fields</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">یک آدرس bitcoin وارد کنید (مثال 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
@@ -2302,17 +2245,9 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">نسخه bitcoin</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>میزان استفاده:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">ارسال دستور به سرور یا bitcoined</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2328,14 +2263,6 @@ Address: %4
         <location line="+24"/>
         <source>Options:</source>
         <translation>انتخابها:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">فایل پیکربندیِ را مشخص کنید (پیش فرض: bitcoin.conf)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">فایل pid  را مشخص کنید (پیش فرض: bitcoind.pid)</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2951,14 +2878,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-35"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation>خطا در هنگام لود شدن wallet.dat: Wallet corrupted</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">خطا در هنگام لود شدن wallet.dat.  به نسخه جدید Bitocin برای wallet نیاز است.</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">wallet نیاز به بازنویسی دارد. Bitcoin را برای تکمیل عملیات دوباره اجرا کنید.</translation>
     </message>
     <message>
         <location line="-1"/>

@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">Par Bitcoin</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt; versija</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -295,10 +287,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Maciņš nošifrēts</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Bitcoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
-    </message>
-    <message>
         <location line="-43"/>
         <location line="+7"/>
         <location line="+42"/>
@@ -343,17 +331,17 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>Parakstīt &amp;ziņojumu...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Sinhronizācija ar tīklu...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>&amp;Pārskats</translation>
     </message>
@@ -393,11 +381,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Aizvērt programmu</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Parādīt informāciju par Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>Par &amp;Qt</translation>
     </message>
@@ -427,7 +411,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Mainīt paroli</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+319"/>
         <source>Importing blocks from disk...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -437,15 +421,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Nosūtīt bitkoinus uz Bitcoin adresi</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Mainīt Bitcoin konfigurācijas uzstādījumus</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>Izveidot maciņa rezerves kopiju citur</translation>
     </message>
@@ -470,7 +446,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Pārbaudīt ziņojumu...</translation>
     </message>
     <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Maciņš</translation>
     </message>
@@ -490,7 +466,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation type="unfinished"></translation>
     </message>
@@ -505,7 +481,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+17"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>&amp;File</source>
         <translation>&amp;Fails</translation>
     </message>
@@ -515,7 +511,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Uzstādījumi</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>&amp;Palīdzība</translation>
     </message>
@@ -531,19 +527,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Bitcoin klients</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n aktīvu savienojumu ar Bitcoin tīklu</numerusform>
-            <numerusform>%n aktīvs savienojums ar Bitcoin tīklu</numerusform>
-            <numerusform>%n aktīvu savienojumu as Bitcoin tīklu</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -625,13 +609,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Sinhronizēts</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -646,7 +630,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -671,27 +655,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -826,10 +800,6 @@ Adrese: %4
         <translation>Nupat ierakstītā adrese &quot;%1&quot; jau atrodas adrešu grāmatā.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">Ierakstītā adrese &quot;%1&quot; nav derīga Bitcoin adrese.</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>Nav iespējams atslēgt maciņu.</translation>
@@ -842,10 +812,6 @@ Adrese: %4
 </context>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <source>Bitcoin-Qt</source>
-        <translation type="obsolete">Bitcoin-Qt</translation>
-    </message>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <source>version</source>
@@ -911,14 +877,6 @@ Adrese: %4
         <translation>&amp;Maksāt par transakciju</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Automātiski sākt Bitcoin pēc pieteikšanās sistēmā.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">&amp;Sākt Bitcoin reizē ar sistēmu</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation type="unfinished"></translation>
@@ -932,10 +890,6 @@ Adrese: %4
         <location line="+13"/>
         <source>&amp;Network</source>
         <translation>&amp;Tīkls</translation>
-    </message>
-    <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Uz rūtera automātiski atvērt Bitcoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1043,10 +997,6 @@ Adrese: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc Bitcoin pārstartēšanas.</translation>
-    </message>
-    <message>
         <location line="-22"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Vienības, kurās attēlot daudzumus:</translation>
@@ -1055,10 +1005,6 @@ Adrese: %4
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot bitkoinus.</translation>
-    </message>
-    <message>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation type="obsolete">Rādīt vai nē Bitcoin adreses transakciju sarakstā.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1113,10 +1059,6 @@ Adrese: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Iestatījums aktivizēsies pēc Bitkoin pārstartēšanas.</translation>
-    </message>
-    <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>Norādītā proxy adrese nav derīga.</translation>
@@ -1128,10 +1070,6 @@ Adrese: %4
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Forma</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Bitcoin tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <location line="+92"/>
@@ -1384,10 +1322,6 @@ Adrese: %4
         <translation>Notīrīt konsoli</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">Laipni lūgti Bitcoin RPC konsolē.</translation>
-    </message>
-    <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Bytecoin RPC console.</source>
         <translation type="unfinished"></translation>
@@ -1572,10 +1506,6 @@ Adrese: %4
         <translation>Dzēst šo saņēmēju</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Ierakstiet Bitcoin adresi (piem. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1690,10 +1620,6 @@ Adrese: %4
         <location line="+14"/>
         <source>Reset all verify message fields</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Ierakstiet Bitcoin adresi (piem. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
@@ -2339,17 +2265,9 @@ Adrese: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Bitcoin versija</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Lietojums:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Nosūtīt komantu uz -server vai bitcoind</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2365,14 +2283,6 @@ Adrese: %4
         <location line="+24"/>
         <source>Options:</source>
         <translation>Iespējas:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Norādiet konfigurācijas failu (pēc noklusēšanas: bitcoin.conf)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">Norādiet pid failu (pēc noklusēšanas: bitcoind.pid)</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2990,14 +2900,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Nevar ielādēt wallet.dat: maciņš bojāts</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">Nevar ielādēt wallet.dat: maciņa atvēršanai nepieciešama jaunāka Bitcoin versija</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">Bija nepieciešams pārstartēt maciņu: pabeigšanai pārstartējiet Bitcoin</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>Kļūda ielādējot wallet.dat</translation>
@@ -3051,10 +2953,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Pievienot mezglu, kam pievienoties un turēt savienojumu atvērtu</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Nevar pievienoties %s uz šī datora. Bitcoin droši vien jau darbojas.</translation>
     </message>
     <message>
         <location line="+39"/>

@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">Apie Bitcoin</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt; versija</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -91,10 +83,6 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>&amp;Naujas adresas</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Tai yra jūsų Bitcoin adresai mokėjimų gavimui. Galite duoti skirtingus adresus atskiriems siuntėjams, kad galėtumėte sekti, kas jums moka.</translation>
-    </message>
-    <message>
         <location line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopijuoti adresą</translation>
@@ -103,10 +91,6 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>Rodyti &amp;QR kodą</translation>
-    </message>
-    <message>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation type="obsolete">Pasirašykite žinutę, kad įrodytume, jog esate Bitcoin adreso savininkas</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -132,10 +116,6 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <location line="+3"/>
         <source>&amp;Export</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation type="obsolete">Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Bitcoin adresas</translation>
     </message>
     <message>
         <location line="-41"/>
@@ -279,10 +259,6 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Patvirtinkite piniginės užšifravimą</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">Dėmesio: jei užšifruosite savo piniginę ir pamesite slaptafrazę, jūs&lt;b&gt;PRARASITE VISUS SAVO BITCOINUS&lt;/b&gt;! </translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ar tikrai norite šifruoti savo piniginę?</translation>
@@ -313,10 +289,6 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Piniginė užšifruota</translation>
-    </message>
-    <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Bitcoin dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti bitcoinų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -363,17 +335,17 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>Pasirašyti ži&amp;nutę...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Sinchronizavimas su tinklu ...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>&amp;Apžvalga</translation>
     </message>
@@ -413,11 +385,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Išjungti programą</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Rodyti informaciją apie Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>Apie &amp;Qt</translation>
     </message>
@@ -447,7 +415,27 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>&amp;Keisti slaptafrazę...</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -457,15 +445,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Siųsti monetas Bitcoin adresui</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Keisti bitcoin konfigūracijos galimybes</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>Daryti piniginės atsarginę kopiją</translation>
     </message>
@@ -490,11 +470,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>&amp;Tikrinti žinutę...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Piniginė</translation>
     </message>
@@ -514,11 +490,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">&amp;Apie Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Rodyti / Slėpti</translation>
     </message>
@@ -533,7 +505,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>&amp;Failas</translation>
     </message>
@@ -543,7 +515,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>&amp;Nustatymai</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>&amp;Pagalba</translation>
     </message>
@@ -559,19 +531,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>[testavimotinklas]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Bitcoin klientas</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n Bitcoin tinklo aktyvus ryšys</numerusform>
-            <numerusform>%n Bitcoin tinklo aktyvūs ryšiai</numerusform>
-            <numerusform>%n Bitcoin tinklo aktyvūs ryšiai</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -653,13 +613,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation>Atnaujinta</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -674,7 +634,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -699,27 +659,17 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -853,10 +803,6 @@ Adresas: %4</translation>
         <translation>Įvestas adresas „%1“ jau yra adresų knygelėje.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">Įvestas adresas „%1“ nėra galiojantis Bitcoin adresas.</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>Nepavyko atrakinti piniginės.</translation>
@@ -869,10 +815,6 @@ Adresas: %4</translation>
 </context>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <source>Bitcoin-Qt</source>
-        <translation type="obsolete">Bitcoin-Qt</translation>
-    </message>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <source>version</source>
@@ -938,14 +880,6 @@ Adresas: %4</translation>
         <translation>&amp;Mokėti sandorio mokestį</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Automatiškai paleisti Bitkoin programą įjungus sistemą.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">&amp;Paleisti Bitcoin programą su window sistemos paleidimu</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation type="unfinished"></translation>
@@ -961,17 +895,9 @@ Adresas: %4</translation>
         <translation>&amp;Tinklas</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Automatiškai atidaryti Bitcoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Persiųsti prievadą naudojant &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="obsolete">Jungtis į Bitkoin tinklą per  socks proxy (pvz. jungiantis per Tor)</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -1072,10 +998,6 @@ Adresas: %4</translation>
         <location line="+33"/>
         <source>Whether to show Bytecoin addresses in the transaction list or not.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus Bitcoin.</translation>
     </message>
     <message>
         <location line="-22"/>
@@ -1393,14 +1315,6 @@ Adresas: %4</translation>
         <translation>Kompiliavimo data</translation>
     </message>
     <message>
-        <source>Bitcoin - Debug window</source>
-        <translation type="obsolete">Bitcoin - Derinimo langas</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation type="obsolete">Bitcoin branduolys</translation>
-    </message>
-    <message>
         <location line="+200"/>
         <source>Debug log file</source>
         <translation>Derinimo žurnalo failas</translation>
@@ -1595,10 +1509,6 @@ Adresas: %4</translation>
         <translation>Pašalinti šį gavėją</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1620,10 +1530,6 @@ Adresas: %4</translation>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1683,10 +1589,6 @@ Adresas: %4</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="obsolete">Registruotis žinute įrodymuii, kad turite šį adresą</translation>
-    </message>
-    <message>
         <location line="-143"/>
         <source>Sign &amp;Message</source>
         <translation type="unfinished">Registruoti praneši&amp;mą</translation>
@@ -1713,14 +1615,6 @@ Adresas: %4</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="obsolete">Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Bitcoin adresas</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation type="unfinished"></translation>
@@ -1731,17 +1625,9 @@ Adresas: %4</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Įveskite bitkoinų adresą (pvz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Spragtelėkite &quot;Registruotis žinutę&quot; tam, kad gauti parašą</translation>
-    </message>
-    <message>
-        <source>Enter Bitcoin signature</source>
-        <translation type="obsolete">Įveskite Bitcoin parašą</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2382,17 +2268,9 @@ Adresas: %4</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Bitcoin versija</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Naudojimas:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Siųsti komandą serveriui arba bitcoind</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2408,14 +2286,6 @@ Adresas: %4</translation>
         <location line="+24"/>
         <source>Options:</source>
         <translation>Parinktys:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Nurodyti konfigūracijos failą (pagal nutylėjimąt: bitcoin.conf)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">Nurodyti pid failą (pagal nutylėjimą: bitcoind.pid)</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2536,10 +2406,6 @@ Adresas: %4</translation>
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Bitcoin, veiks netinkamai.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2847,10 +2713,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Prideėti laiko žymę derinimo rezultatams</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="obsolete">SSL opcijos (žr.e Bitcoin Wiki for SSL setup instructions)</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation type="unfinished"></translation>
@@ -3041,14 +2903,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation> wallet.dat pakrovimo klaida,  wallet.dat sugadintas</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete"> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Bitcoin versijos</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">Piniginė turi būti prrašyta: įvykdymui perkraukite Bitcoin</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation> wallet.dat pakrovimo klaida</translation>
@@ -3102,10 +2956,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Pridėti mazgą prie sujungti su and attempt to keep the connection open</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Nepavyko susieti šiame kompiuteryje prievado %s. Bitcoin tikriausiai jau veikia.</translation>
     </message>
     <message>
         <location line="+39"/>

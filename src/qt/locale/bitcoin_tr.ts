@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">Bitcoin hakkında</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt; sürüm</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -92,10 +84,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Yeni adres</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Bunlar, ödeme almak için Bitcoin adresleridir. Kimin ödeme yaptığını izleyebilmek için her ödeme yollaması gereken kişiye değişik bir adres verebilirsiniz.</translation>
-    </message>
-    <message>
         <location line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>Adresi &amp;kopyala</translation>
@@ -104,10 +92,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>&amp;QR kodunu göster</translation>
-    </message>
-    <message>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation type="obsolete">Bir Bitcoin adresinin sizin olduğunu ispatlamak için mesaj imzalayın</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -135,10 +119,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Dışa aktar</translation>
     </message>
     <message>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation type="obsolete">Belirtilen Bitcoin adresi ile imzalandığını doğrulamak için bir mesajı kontrol et</translation>
-    </message>
-    <message>
         <location line="-41"/>
         <source>&amp;Verify Message</source>
         <translation>Mesaj &amp;kontrol et</translation>
@@ -147,10 +127,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>&amp;Sil</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="obsolete">Bunlar ödeme yapmak için kullanacağınız Bitcoin adreslerinizdir. Bitcoin yollamadan önce meblağı ve alıcı adresini daima kontrol ediniz.</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+58"/>
@@ -284,10 +260,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Cüzdan şifrelenmesini teyit eder</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">Uyarı: Eğer cüzdanınızı şifrelerseniz ve parolanızı kaybederseniz, &lt;b&gt;TÜM BİTCOİNLERİNİZİ KAYBEDERSİNİZ&lt;/b&gt;!</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
@@ -318,10 +290,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Cüzdan şifrelendi</translation>
-    </message>
-    <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Şifreleme işlemini tamamlamak için Bitcoin şimdi kapanacaktır. Cüzdanınızı şifrelemenin, Bitcoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -368,17 +336,17 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>&amp;Mesaj imzala...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Şebeke ile senkronizasyon...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>&amp;Genel bakış</translation>
     </message>
@@ -418,11 +386,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Uygulamadan çık</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Bitcoin hakkında bilgi göster</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>&amp;Qt hakkında</translation>
     </message>
@@ -452,7 +416,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Parolayı &amp;değiştir...</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation>Bloklar diskten içe aktarılıyor...</translation>
     </message>
@@ -462,15 +446,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Diskteki bloklar yeniden endeksleniyor...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Bir Bitcoin adresine Bitcoin yolla</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Bitcoin seçeneklerinin yapılandırmasını değiştir</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>Cüzdanı diğer bir konumda yedekle</translation>
     </message>
@@ -495,11 +471,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Mesaj &amp;kontrol et...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Cüzdan</translation>
     </message>
@@ -519,11 +491,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Adresler</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">Bitcoin &amp;Hakkında</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Göster / Sakla</translation>
     </message>
@@ -538,15 +506,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Cüzdanınızın özel anahtarlarını şifrele</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="obsolete">Mesajları adreslerin size ait olduğunu ispatlamak için Bitcoin adresleri ile imzala</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="obsolete">Belirtilen Bitcoin adresleri ile imzalandıklarından emin olmak için mesajları kontrol et</translation>
-    </message>
-    <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>&amp;Dosya</translation>
     </message>
@@ -556,7 +516,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Ayarlar</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>&amp;Yardım</translation>
     </message>
@@ -572,17 +532,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Bitcoin istemcisi</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>Bitcoin şebekesine %n faal bağlantı</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation>Hiçbir blok kaynağı mevcut değil...</translation>
     </message>
@@ -658,13 +608,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Güncel</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -679,7 +629,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -704,27 +654,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -776,10 +716,6 @@ Adres: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="obsolete">URI okunamadı! Sebebi geçersiz bir Bitcoin adresi veya hatalı URI parametreleri olabilir.</translation>
-    </message>
-    <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Cüzdan &lt;b&gt;şifrelenmiştir&lt;/b&gt; ve şu anda &lt;b&gt;kilidi açıktır&lt;/b&gt;</translation>
@@ -788,10 +724,6 @@ Adres: %4
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Cüzdan &lt;b&gt;şifrelenmiştir&lt;/b&gt; ve şu anda &lt;b&gt;kilitlidir&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation type="obsolete">Ciddi bir hata oluştu. Bitcoin artık güvenli bir şekilde işlemeye devam edemez ve kapanacaktır.</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -865,10 +797,6 @@ Adres: %4
         <translation>Girilen &quot;%1&quot; adresi hâlihazırda adres defterinde mevcuttur.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">Girilen &quot;%1&quot; adresi geçerli bir Bitcoin adresi değildir.</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>Cüzdan kilidi açılamadı.</translation>
@@ -881,10 +809,6 @@ Adres: %4
 </context>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <source>Bitcoin-Qt</source>
-        <translation type="obsolete">Bitcoin-Qt</translation>
-    </message>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <source>version</source>
@@ -950,14 +874,6 @@ Adres: %4
         <translation>Muamele ücreti &amp;öde</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Sistemde oturum açıldığında Bitcoin&apos;i otomatik olarak başlat.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">Bitcoin&apos;i sistem oturumuyla &amp;başlat</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation>İstemcinin tüm seçeneklerini varsayılan değerlere geri al.</translation>
@@ -973,17 +889,9 @@ Adres: %4
         <translation>&amp;Şebeke</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Yönlendiricide Bitcoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Portları &amp;UPnP kullanarak haritala</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="obsolete">Bitcoin şebekesine SOCKS vekil sunucusu vasıtasıyla bağlan (mesela Tor ile bağlanıldığında).</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -1086,10 +994,6 @@ Adres: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar Bitcoin tekrar başlatıldığında etkinleşecektir.</translation>
-    </message>
-    <message>
         <location line="-22"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>Miktarı göstermek için &amp;birim:</translation>
@@ -1098,10 +1002,6 @@ Adres: %4
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Bitcoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
-    </message>
-    <message>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation type="obsolete">Muamele listesinde Bitcoin adreslerinin gösterilip gösterilmeyeceklerini belirler.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1156,10 +1056,6 @@ Adres: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Bu ayarlar Bitcoin tekrar başlatıldığında etkinleşecektir.</translation>
-    </message>
-    <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>Girilen vekil sunucu adresi geçersizdir.</translation>
@@ -1171,10 +1067,6 @@ Adres: %4
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Form</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">Görüntülenen veriler zaman aşımına uğramış olabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak şebeke ile eşleşir ancak bu işlem henüz tamamlanmamıştır.</translation>
     </message>
     <message>
         <location line="+92"/>
@@ -1231,10 +1123,6 @@ Adres: %4
 </context>
 <context>
     <name>PaymentServer</name>
-    <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="obsolete">Bitcoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
-    </message>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start bytecoin: click-to-pay handler</source>
@@ -1406,10 +1294,6 @@ Adres: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation type="obsolete">Mevcut Bitcoin komut satırı seçeneklerinin listesini içeren Bitcoin-Qt yardımını göster.</translation>
-    </message>
-    <message>
         <location line="+3"/>
         <source>&amp;Show</source>
         <translation>&amp;Göster</translation>
@@ -1425,30 +1309,14 @@ Adres: %4
         <translation>Derleme tarihi</translation>
     </message>
     <message>
-        <source>Bitcoin - Debug window</source>
-        <translation type="obsolete">Bitcoin - Hata ayıklama penceresi</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation type="obsolete">Bitcoin Çekirdeği</translation>
-    </message>
-    <message>
         <location line="+200"/>
         <source>Debug log file</source>
         <translation>Hata ayıklama kütük dosyası</translation>
     </message>
     <message>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="obsolete">Güncel veri klasöründen Bitcoin hata ayıklama kütük dosyasını açar. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
-    </message>
-    <message>
         <location line="+109"/>
         <source>Clear console</source>
         <translation>Konsolu temizle</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">Bitcoin RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
@@ -1594,10 +1462,6 @@ Adres: %4
         <translation>&amp;Şu kişiye öde:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Ödemenin gönderileceği adres (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location line="+94"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1639,10 +1503,6 @@ Adres: %4
         <translation>Bu alıcıyı kaldır</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Bitcoin adresi giriniz (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1664,10 +1524,6 @@ Adres: %4
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Bir adresin sizin olduğunu ispatlamak için adresinizle mesaj imzalayabilirsiniz. Oltalama saldırılarının kimliğinizi imzanızla elde etmeyi deneyebilecekleri için belirsiz hiçbir şey imzalamamaya dikkat ediniz. Sadece ayrıntılı açıklaması olan ve tümüne katıldığınız ifadeleri imzalayınız.</translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Mesajın imzalanmasında kullanılacak adres (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1727,10 +1583,6 @@ Adres: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="obsolete">Bu Bitcoin adresinin sizin olduğunu ispatlamak için mesajı imzalayın</translation>
-    </message>
-    <message>
         <location line="-143"/>
         <source>Sign &amp;Message</source>
         <translation>&amp;Mesajı imzala</translation>
@@ -1757,14 +1609,6 @@ Adres: %4
         <translation>İmza için kullanılan adresi, mesajı (satır sonları, boşluklar, sekmeler vs. karakterleri tam olarak kopyaladığınızdan emin olunuz) ve imzayı aşağıda giriniz. Bir ortadaki adam saldırısı tarafından kandırılmaya mâni olmak için imzadan, imzalı mesajın içeriğini aşan bir anlam çıkarmamaya dikkat ediniz.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Mesajı imzalamak için kullanılmış olan adres (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="obsolete">Belirtilen Bitcoin adresi ile imzalandığını doğrulamak için mesajı kontrol et</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation>&amp;Mesaj kontrol et</translation>
@@ -1775,17 +1619,9 @@ Adres: %4
         <translation>Tüm mesaj kontrolü alanlarını sıfırla</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Bitcoin adresi giriniz (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>İmzayı oluşturmak için &quot;Mesaj İmzala&quot; unsurunu tıklayın</translation>
-    </message>
-    <message>
-        <source>Enter Bitcoin signature</source>
-        <translation type="obsolete">Bitcoin imzası gir</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -1867,10 +1703,6 @@ Adres: %4
 </context>
 <context>
     <name>SplashScreen</name>
-    <message>
-        <source>The Bitcoin developers</source>
-        <translation type="obsolete">Bitcoin geliştiricileri</translation>
-    </message>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Bytecoin developers</source>
@@ -2420,17 +2252,9 @@ Adres: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Bitcoin sürümü</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Kullanım:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">-server ya da bitcoind&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2446,14 +2270,6 @@ Adres: %4
         <location line="+24"/>
         <source>Options:</source>
         <translation>Seçenekler:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Yapılandırma dosyası belirt (varsayılan: bitcoin.conf)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">Pid dosyası belirt (varsayılan: bitcoind.pid)</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2526,30 +2342,6 @@ Adres: %4
         <translation>Dışarıdan gelen bağlantıları kabul et (varsayılan: -proxy veya -connect yoksa 1)</translation>
     </message>
     <message>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
-</source>
-        <translation type="obsolete">%s, şu yapılandırma dosyasında rpc parolası belirtmeniz gerekir:
-%s
-Aşağıdaki rastgele oluşturulan parolayı kullanmanız tavsiye edilir:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(bu parolayı hatırlamanız gerekli değildir)
-Kullanıcı ismi ile parolanın FARKLI olmaları gerekir.
-Dosya mevcut değilse, sadece sahibi için okumayla sınırlı izin ile oluşturunuz.
-Sorunlar hakkında bildiri almak için alertnotify unsurunu ayarlamanız tavsiye edilir;
-mesela: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
-</translation>
-    </message>
-    <message>
         <location line="-63"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>IPv6 üzerinde dinlemek için %u numaralı RPC portu kurulurken bir hata meydana geldi, IPv4&apos;e dönülüyor: %s</translation>
@@ -2558,10 +2350,6 @@ mesela: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Belirtilen adrese bağlan ve daima ondan dinle. IPv6 için [makine]:port yazımını kullanınız</translation>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation type="obsolete">%s veri dizininde kilit elde edilemedi. Bitcoin muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2602,10 +2390,6 @@ mesela: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Uyarı: Görüntülenen muameleler doğru olmayabilir! Sizin ya da diğer düğümlerin güncelleme yapması gerekebilir.</translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olup olmadığını kontrol ediniz! Saatiniz doğru değilse Bitcoin gerektiği gibi çalışamaz.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2913,10 +2697,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Hata ayıklama çıktısına tarih ön ekleri ilâve et</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="obsolete"> SSL seçenekleri: (SSL kurulum bilgisi için Bitcoin vikisine bakınız)</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation>Kullanılacak socks vekil sunucu sürümünü seç (4-5, varsayılan: 5)</translation>
@@ -3107,14 +2887,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: bozuk cüzdan</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">wallet.dat dosyasının yüklenmesinde hata oluştu: cüzdanın daha yeni bir Bitcoin sürümüne ihtiyacı var</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">Cüzdanın tekrar yazılması gerekiyordu: işlemi tamamlamak için Bitcoin&apos;i yeniden başlatınız</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>wallet.dat dosyasının yüklenmesinde hata oluştu</translation>
@@ -3168,10 +2940,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Bağlanılacak düğüm ekle ve bağlantıyı zinde tutmaya çalış</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Bu bilgisayarda %s unsuruna bağlanılamadı. Bitcoin muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <location line="+39"/>

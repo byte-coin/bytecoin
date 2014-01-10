@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">&amp;О Bitcoin</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt; версия</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -92,10 +84,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Новый адрес</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
-    </message>
-    <message>
         <location line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Копировать адрес</translation>
@@ -104,10 +92,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>Показать &amp;QR код</translation>
-    </message>
-    <message>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation type="obsolete">Подписать сообщение, чтобы доказать владение адресом Bitcoin</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -135,10 +119,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Экспорт</translation>
     </message>
     <message>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation type="obsolete">Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Bitcoin</translation>
-    </message>
-    <message>
         <location line="-41"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Проверить сообщение</translation>
@@ -147,10 +127,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>&amp;Удалить</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="obsolete">Ваши адреса для получения средств. Совет: проверьте сумму и адрес назначения перед переводом.</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+58"/>
@@ -284,10 +260,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Подтвердите шифрование бумажника</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">Внимание: если вы зашифруете бумажник и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ БИТКОИНЫ&lt;/b&gt;!</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы уверены, что хотите зашифровать ваш бумажник?</translation>
@@ -318,10 +290,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Бумажник зашифрован</translation>
-    </message>
-    <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши биткоины от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -368,17 +336,17 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>&amp;Подписать сообщение...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Синхронизация с сетью...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>О&amp;бзор</translation>
     </message>
@@ -418,11 +386,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Закрыть приложение</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Показать информацию о Bitcoin&apos;е</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>О &amp;Qt</translation>
     </message>
@@ -452,7 +416,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Изменить пароль...</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation>Импортируются блоки с диска...</translation>
     </message>
@@ -462,15 +446,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Идёт переиндексация блоков на диске...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Отправить монеты на указанный адрес Bitcoin</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Изменить параметры конфигурации Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>Сделать резервную копию бумажника в другом месте</translation>
     </message>
@@ -495,11 +471,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Проверить сообщение...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Биткоин</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Бумажник</translation>
     </message>
@@ -519,11 +491,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Адреса</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">&amp;О Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Показать / Скрыть</translation>
     </message>
@@ -538,15 +506,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Зашифровать приватные ключи, принадлежащие вашему бумажнику</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="obsolete">Подписать сообщения вашим адресом Bitcoin, чтобы доказать, что вы им владеете</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="obsolete">Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>&amp;Файл</translation>
     </message>
@@ -556,7 +516,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Настройки</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>&amp;Помощь</translation>
     </message>
@@ -572,19 +532,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[тестовая сеть]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Bitcoin клиент</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n активное соединение с сетью</numerusform>
-            <numerusform>%n активных соединений с сетью</numerusform>
-            <numerusform>%n активных соединений с сетью</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation>Источник блоков недоступен...</translation>
     </message>
@@ -666,13 +614,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Синхронизировано</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -687,7 +635,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -712,27 +660,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -786,10 +724,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="obsolete">Не удалось обработать URI! Это может быть связано с неверным адресом Bitcoin или неправильными параметрами URI.</translation>
-    </message>
-    <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;разблокирован&lt;/b&gt;</translation>
@@ -798,10 +732,6 @@ Address: %4
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;заблокирован&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation type="obsolete">Произошла неисправимая ошибка. Bitcoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -875,10 +805,6 @@ Address: %4
         <translation>Введённый адрес «%1» уже находится в адресной книге.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">Введённый адрес &quot;%1&quot; не является правильным Bitcoin-адресом.</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>Не удается разблокировать бумажник.</translation>
@@ -891,10 +817,6 @@ Address: %4
 </context>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <source>Bitcoin-Qt</source>
-        <translation type="obsolete">Bitcoin-Qt</translation>
-    </message>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <source>version</source>
@@ -960,14 +882,6 @@ Address: %4
         <translation>Заплатить ко&amp;миссию</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Автоматически запускать Bitcoin после входа в систему</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">&amp;Запускать Bitcoin при входе в систему</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation>Сбросить все опции клиента на значения по умолчанию.</translation>
@@ -983,17 +897,9 @@ Address: %4
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Автоматически открыть порт для Bitcoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Пробросить порт через &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="obsolete">Подключаться к сети Bitcoin через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -1096,10 +1002,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Bitcoin.</translation>
-    </message>
-    <message>
         <location line="-22"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Отображать суммы в единицах: </translation>
@@ -1108,10 +1010,6 @@ Address: %4
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Выберите единицу измерения монет при отображении и отправке.</translation>
-    </message>
-    <message>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation type="obsolete">Показывать ли адреса Bitcoin в списке транзакций.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1166,10 +1064,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Эта настройка вступит в силу после перезапуска Bitcoin</translation>
-    </message>
-    <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>Адрес прокси неверен.</translation>
@@ -1181,10 +1075,6 @@ Address: %4
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Форма</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Bitcoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="+92"/>
@@ -1241,10 +1131,6 @@ Address: %4
 </context>
 <context>
     <name>PaymentServer</name>
-    <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="obsolete">Не удаётся запустить bitcoin: обработчик click-to-pay</translation>
-    </message>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start bytecoin: click-to-pay handler</source>
@@ -1416,10 +1302,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation type="obsolete">Показать помощь по Bitcoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
-    </message>
-    <message>
         <location line="+3"/>
         <source>&amp;Show</source>
         <translation>&amp;Показать</translation>
@@ -1435,30 +1317,14 @@ Address: %4
         <translation>Дата сборки</translation>
     </message>
     <message>
-        <source>Bitcoin - Debug window</source>
-        <translation type="obsolete">Bitcoin - Окно отладки</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation type="obsolete">Ядро Bitcoin</translation>
-    </message>
-    <message>
         <location line="+200"/>
         <source>Debug log file</source>
         <translation>Отладочный лог-файл</translation>
     </message>
     <message>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="obsolete">Открыть отладочный лог-файл Bitcoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
-    </message>
-    <message>
         <location line="+109"/>
         <source>Clear console</source>
         <translation>Очистить консоль</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">Добро пожаловать в RPC-консоль Bitcoin.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
@@ -1604,10 +1470,6 @@ Address: %4
         <translation>Полу&amp;чатель:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Адрес, на который будет выслан платёж (например 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location line="+94"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1649,10 +1511,6 @@ Address: %4
         <translation>Удалить этого получателя</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Введите Bitcoin-адрес (например 1LA5FtQhnnWnkK6zjFfutR7Stiit4wKd63)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1674,10 +1532,6 @@ Address: %4
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Вы можете подписывать сообщения своими адресами, чтобы доказать владение ими. Будьте осторожны, не подписывайте что-то неопределённое, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Адрес, которым вы хотите подписать сообщение  (напр. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1737,10 +1591,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="obsolete">Подписать сообщение, чтобы доказать владение адресом Bitcoin</translation>
-    </message>
-    <message>
         <location line="-143"/>
         <source>Sign &amp;Message</source>
         <translation>Подписать &amp;Сообщение</translation>
@@ -1767,14 +1617,6 @@ Address: %4
         <translation>Введите ниже адрес для подписи, сообщение (убедитесь, что переводы строк, пробелы, табы и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, по сравнению с самим подписываемым сообщением, чтобы не стать жертвой атаки &quot;man-in-the-middle&quot;.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Адрес, которым было подписано сообщение (напр. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="obsolete">Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Bitcoin</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation>Проверить &amp;Сообщение</translation>
@@ -1785,17 +1627,9 @@ Address: %4
         <translation>Сбросить все поля проверки сообщения</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Введите адрес Bitcoin (напр. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Нажмите &quot;Подписать сообщение&quot; для создания подписи</translation>
-    </message>
-    <message>
-        <source>Enter Bitcoin signature</source>
-        <translation type="obsolete">Введите подпись Bitcoin</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -1877,10 +1711,6 @@ Address: %4
 </context>
 <context>
     <name>SplashScreen</name>
-    <message>
-        <source>The Bitcoin developers</source>
-        <translation type="obsolete">Разработчики Bitcoin</translation>
-    </message>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Bytecoin developers</source>
@@ -2440,17 +2270,9 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Версия</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Использование:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Отправить команду на -server или bitcoind</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2467,14 +2289,6 @@ Address: %4
         <location line="+24"/>
         <source>Options:</source>
         <translation>Опции:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Указать конфигурационный файл (по умолчанию: bitcoin.conf)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">Задать pid-файл (по умолчанию: bitcoin.pid)</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2547,30 +2361,6 @@ Address: %4
         <translation>Принимать подключения извне (по умолчанию: 1, если не используется -proxy или -connect)</translation>
     </message>
     <message>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
-</source>
-        <translation type="obsolete">%s, вы должны установить опцию rpcpassword в конфигурационном файле:
- %s
-Рекомендуется использовать следующий случайный пароль:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(вам не нужно запоминать этот пароль)
-Имя и пароль ДОЛЖНЫ различаться.
-Если файл не существует, создайте его и установите права доступа только для владельца, только для чтения.
-Также рекомендуется включить alertnotify для оповещения о проблемах;
-Например: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
-</translation>
-    </message>
-    <message>
         <location line="-63"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Произошла ошибка при открытии на прослушивание IPv6 RCP-порта %u, возвращаемся к IPv4: %s</translation>
@@ -2579,10 +2369,6 @@ rpcpassword=%s
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Привязаться к указанному адресу и всегда прослушивать только его. Используйте [хост]:порт для IPv6</translation>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Не удаётся установить блокировку на каталог данных %s.  Возможно, Bitcoin уже работает.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2623,10 +2409,6 @@ rpcpassword=%s
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Внимание: отображаемые транзакции могут быть некорректны! Вам или другим узлам, возможно, следует обновиться.</translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Bitcoin будет работать некорректно.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2934,11 +2716,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Дописывать отметки времени к отладочному выводу</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="obsolete">
-Параметры SSL: (см. Bitcoin Wiki для инструкций по настройке SSL)</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation>Выбрать версию SOCKS-прокси (4-5, по умолчанию: 5)</translation>
@@ -3129,14 +2906,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Ошибка загрузки wallet.dat: Бумажник поврежден</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">Ошибка загрузки wallet.dat: бумажник требует более новую версию Bitcoin</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">Необходимо перезаписать бумажник, перезапустите Bitcoin для завершения операции.</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>Ошибка при загрузке wallet.dat</translation>
@@ -3190,10 +2959,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Добавить узел для подключения и пытаться поддерживать соединение открытым</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Невозможно привязаться к %s на этом компьютере.  Возможно, Bitcoin уже работает.</translation>
     </message>
     <message>
         <location line="+39"/>

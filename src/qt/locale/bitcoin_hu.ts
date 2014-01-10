@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">A Bitcoinról</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt; verzió</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -91,10 +83,6 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>&amp;Új cím</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Ezekkel a Bitcoin-címekkel fogadhatod kifizetéseket. Érdemes lehet minden egyes kifizető számára külön címet létrehozni, hogy könnyebben nyomon követhesd, kitől kaptál már pénzt.</translation>
-    </message>
-    <message>
         <location line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Cím másolása</translation>
@@ -128,10 +116,6 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <location line="+3"/>
         <source>&amp;Export</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation type="obsolete">Üzenet ellenőrzése, hogy valóban a megjelölt Bitcoin címekkel van-e aláírva.</translation>
     </message>
     <message>
         <location line="-41"/>
@@ -275,10 +259,6 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES BITCOINODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Biztosan kódolni akarod a tárcát?</translation>
@@ -309,10 +289,6 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Tárca kódolva</translation>
-    </message>
-    <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Bitcoin will close now to finish the encryption process. Ne feledd, hogy a tárca titkosítása sem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -359,17 +335,17 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>Üzenet aláírása...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Szinkronizálás a hálózattal...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>&amp;Áttekintés</translation>
     </message>
@@ -409,11 +385,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Kilépés</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Információk a Bitcoinról</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>A &amp;Qt-ról</translation>
     </message>
@@ -443,7 +415,27 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Jelszó &amp;megváltoztatása...</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation>A blokkok importálása lemezről...</translation>
     </message>
@@ -453,15 +445,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>A blokkok lemezen történő ujraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Érmék küldése megadott címre</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Bitcoin konfigurációs opciók</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>Biztonsági másolat készítése a Tárcáról egy másik helyre</translation>
     </message>
@@ -486,11 +470,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Tárca</translation>
     </message>
@@ -510,11 +490,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">&amp;A Bitcoinról</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation type="unfinished"></translation>
     </message>
@@ -529,15 +505,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>A pénztárcájához tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="obsolete">Üzenet aláírása a Bitcoin címmel, amivel bizonyítja, hogy a cím az ön tulajdona.</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="obsolete">Annak ellenőrzése, hogy az üzenetek valóban a megjelölt Bitcoin címekkel vannak-e alaírva</translation>
-    </message>
-    <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>&amp;Fájl</translation>
     </message>
@@ -547,7 +515,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>&amp;Beállítások</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>&amp;Súgó</translation>
     </message>
@@ -563,17 +531,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>[teszthálózat]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Bitcoin kliens</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n aktív kapcsolat a Bitcoin-hálózattal</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -649,13 +607,13 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Naprakész</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -670,7 +628,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -695,27 +653,17 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -848,10 +796,6 @@ Cím: %4
         <translation>A megadott &quot;%1&quot; cím már szerepel a címjegyzékben.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">A megadott &quot;%1&quot; cím nem egy érvényes Bitcoin-cím.</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>Tárca feloldása sikertelen</translation>
@@ -930,14 +874,6 @@ Cím: %4
         <translation>Tranzakciós &amp;díj fizetése</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Induljon el a Bitcoin a számítógép bekapcsolásakor</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">&amp;Induljon el a számítógép bekapcsolásakor</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation type="unfinished"></translation>
@@ -953,17 +889,9 @@ Cím: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">A Bitcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnP port-feltérképezés</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="obsolete">SOCKS proxyn keresztüli csatlakozás a Bitcoin hálózatához (pl. Tor-on keresztüli csatlakozás esetén)</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -1128,10 +1056,6 @@ Cím: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Ez a beállítás a Bitcoin ujraindítása után lép érvénybe.</translation>
-    </message>
-    <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation type="unfinished"></translation>
@@ -1143,10 +1067,6 @@ Cím: %4
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Űrlap</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Bitcoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <location line="+92"/>
@@ -1584,10 +1504,6 @@ Cím: %4
         <translation>Címzett eltávolítása</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Adj meg egy Bitcoin-címet (pl.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L )</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1609,10 +1525,6 @@ Cím: %4
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Aláírhat a címeivel üzeneteket, amivel bizonyíthatja, hogy a címek az önéi. Vigyázzon, hogy ne írjon alá semmi félreérthetőt, mivel a phising támadásokkal megpróbálhatják becsapni, hogy az azonosságát átírja másokra. Csak olyan részletes állításokat írjon alá, amivel egyetért.</translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Adj meg egy Bitcoin-címet (pl.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L )</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1698,10 +1610,6 @@ Cím: %4
         <translation>Írja be az aláírás címét, az üzenetet (ügyelve arra, hogy az új-sor, szóköz, tab, stb. karaktereket is pontosan) és az aláírást az üzenet ellenőrzéséhez. Ügyeljen arra, ne gondoljon többet az aláírásról, mint amennyi az aláírt szövegben ténylegesen áll, hogy elkerülje a köztes-ember (man-in-the-middle) támadást.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Adj meg egy Bitcoin-címet (pl.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L )</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation type="unfinished"></translation>
@@ -1712,17 +1620,9 @@ Cím: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Adj meg egy Bitcoin-címet (pl.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L )</translation>
-    </message>
-    <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enter Bitcoin signature</source>
-        <translation type="obsolete">Adja meg a Bitcoin aláírást</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2353,18 +2253,9 @@ Cím: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Bitcoin verzió</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Használat:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Parancs küldése a -serverhez vagy a bitcoindhez
-</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2382,16 +2273,6 @@ Cím: %4
         <location line="+24"/>
         <source>Options:</source>
         <translation>Opciók
-</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Konfigurációs fájl (alapértelmezett: bitcoin.conf)
-</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">pid-fájl (alapértelmezett: bitcoind.pid)
 </translation>
     </message>
     <message>
@@ -2517,10 +2398,6 @@ Cím: %4
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A Bitcoin nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2828,10 +2705,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Időbélyeges hibakeresési kimenet hozzáadása az elejéhez</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="obsolete">SSL-opciók: (lásd a Bitcoin Wiki SSL-beállítási instrukcióit)</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation type="unfinished"></translation>
@@ -3033,14 +2906,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Hiba a wallet.dat betöltése közben: meghibásodott tárca</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">Hiba a wallet.dat betöltése közben: ehhez a tárcához újabb verziójú Bitcoin-kliens szükséges</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">A Tárca újraírása szükséges: Indítsa újra a teljesen a Bitcoin-t</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>Hiba az wallet.dat betöltése közben</translation>
@@ -3094,10 +2959,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Elérendő csomópont megadása and attempt to keep the connection open</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">A %s nem elérhető ezen a gépen. A Bitcoin valószínűleg fut már.</translation>
     </message>
     <message>
         <location line="+39"/>

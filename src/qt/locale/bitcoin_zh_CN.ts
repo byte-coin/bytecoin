@@ -336,17 +336,17 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>对消息签名...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>正在与网络同步...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>概况</translation>
     </message>
@@ -386,7 +386,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>退出程序</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
         <source>Show information about Bytecoin</source>
         <translation>显示百特币的相关信息</translation>
     </message>
@@ -421,7 +421,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>修改密码...</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation>独自挖矿</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation>独自挖矿</translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation>矿池挖矿教程</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation>打开矿池挖矿教程</translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation>正在从磁盘导入数据块...</translation>
     </message>
@@ -431,12 +451,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>正在为数据块建立索引...</translation>
     </message>
     <message>
-        <location line="-374"/>
+        <location line="-383"/>
         <source>Send coins to a Bytecoin address</source>
         <translation>向一个百特币地址发送百特币</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+51"/>
         <source>Modify configuration options for Bytecoin</source>
         <translation>设置选项</translation>
     </message>
@@ -466,13 +486,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>验证消息...</translation>
     </message>
     <message>
-        <location line="-168"/>
-        <location line="+557"/>
+        <location line="-167"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation>百特币</translation>
     </message>
     <message>
-        <location line="-557"/>
+        <location line="-566"/>
         <source>Wallet</source>
         <translation>钱包</translation>
     </message>
@@ -502,7 +522,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>获取百特币的新版本</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation>关于百特币</translation>
     </message>
@@ -532,17 +552,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>校验消息，确保该消息是由指定的百特币地址所有者签名的</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation>打开挖矿器</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation>打开挖矿器进行挖矿</translation>
-    </message>
-    <message>
-        <location line="+27"/>
+        <location line="+37"/>
         <source>&amp;File</source>
         <translation>文件</translation>
     </message>
@@ -552,12 +562,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>设置</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
         <source>&amp;Mining</source>
         <translation>挖矿</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>帮助</translation>
     </message>
@@ -578,7 +588,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>百特币客户端</translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation>
             <numerusform>到百特币网络的连接共有%n条</numerusform>

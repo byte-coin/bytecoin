@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = bytecoin-qt
-macx:TARGET = "Bitcoin-Qt"
-VERSION = 1.0.0
+macx:TARGET = "Bytecoin-Qt"
+VERSION = 1.0.1
 INCLUDEPATH += src src/json src/qt
 QT += network
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE

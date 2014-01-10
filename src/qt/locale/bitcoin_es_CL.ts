@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">Sobre Bitcoin</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt; - versión </translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -95,10 +87,6 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation>&amp;Nueva dirección</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Estas son tus direcciones Bitcoin para recibir pagos. Puedes utilizar una diferente por cada persona emisora para saber quien te está pagando.</translation>
-    </message>
-    <message>
         <location line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Copia dirección</translation>
@@ -107,10 +95,6 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>Mostrar Código &amp;QR </translation>
-    </message>
-    <message>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation type="obsolete">Firmar un mensaje para provar que usted es dueño de esta dirección</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -279,10 +263,6 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation>Confirma la codificación de cartera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">Atención: ¡Si codificas tu billetera y pierdes la contraseña perderás &lt;b&gt;TODOS TUS BITCOINS&lt;/b&gt;!</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>¿Seguro que quieres seguir codificando la billetera?</translation>
@@ -313,10 +293,6 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Billetera codificada</translation>
-    </message>
-    <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Bitcoin se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus bitcoins de ser robados por malware que infecte su computador</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -363,17 +339,17 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>Firmar &amp;Mensaje...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Sincronizando con la red...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>&amp;Vista general</translation>
     </message>
@@ -413,11 +389,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation>Salir del programa</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Muestra información acerca de Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>Acerca de</translation>
     </message>
@@ -447,7 +419,27 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation>&amp;Cambiar la contraseña...</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -457,15 +449,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Enviar monedas a una dirección bitcoin</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Modifica las opciones de configuración de bitcoin</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>Respaldar billetera en otra ubicación</translation>
     </message>
@@ -490,11 +474,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Cartera</translation>
     </message>
@@ -514,11 +494,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">&amp;Sobre Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Mostrar/Ocultar</translation>
     </message>
@@ -533,7 +509,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>&amp;Archivo</translation>
     </message>
@@ -543,7 +519,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation>&amp;Configuración</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>&amp;Ayuda</translation>
     </message>
@@ -559,18 +535,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation>[red-de-pruebas]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Cliente Bitcoin</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n conexión activa hacia la red Bitcoin</numerusform>
-            <numerusform>%n conexiones activas hacia la red Bitcoin</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -649,13 +614,13 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation>Actualizado</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -670,7 +635,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -695,27 +660,17 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -848,10 +803,6 @@ Dirección: %4</translation>
         <translation>La dirección introducida &quot;%1&quot; ya esta guardada en la libreta de direcciones.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">La dirección introducida &quot;%1&quot; no es una dirección Bitcoin valida.</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>No se pudo desbloquear la billetera.</translation>
@@ -930,14 +881,6 @@ Dirección: %4</translation>
         <translation>Comisión de &amp;transacciónes</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Inicia Bitcoin automáticamente despues de encender el computador</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">&amp;Inicia Bitcoin al iniciar el sistema</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation type="unfinished"></translation>
@@ -953,17 +896,9 @@ Dirección: %4</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Abre automáticamente el puerto del cliente Bitcoin en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Direcciona el puerto usando &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="obsolete">Conecta a la red Bitcoin a través de un proxy SOCKS (ej. cuando te conectas por la red Tor)</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -1575,10 +1510,6 @@ Dirección: %4</translation>
         <translation>Elimina destinatario</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Introduce una dirección Bitcoin (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1600,10 +1531,6 @@ Dirección: %4</translation>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Introduce una dirección Bitcoin (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1663,10 +1590,6 @@ Dirección: %4</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="obsolete">Firmar un mensjage para probar que usted es dueño de esta dirección</translation>
-    </message>
-    <message>
         <location line="-143"/>
         <source>Sign &amp;Message</source>
         <translation type="unfinished">Firmar Mensaje</translation>
@@ -1693,10 +1616,6 @@ Dirección: %4</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Introduce una dirección Bitcoin (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation type="unfinished"></translation>
@@ -1705,10 +1624,6 @@ Dirección: %4</translation>
         <location line="+14"/>
         <source>Reset all verify message fields</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Introduce una dirección Bitcoin (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
@@ -2349,18 +2264,9 @@ Dirección: %4</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Versión Bitcoin</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Uso:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Envia comando a bitcoin lanzado con -server u bitcoind
-</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2378,16 +2284,6 @@ Dirección: %4</translation>
         <location line="+24"/>
         <source>Options:</source>
         <translation>Opciones:
-</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Especifica archivo de configuración (predeterminado: bitcoin.conf)
-</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">Especifica archivo pid (predeterminado: bitcoin.pid)
 </translation>
     </message>
     <message>
@@ -2513,10 +2409,6 @@ Dirección: %4</translation>
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">Precaución: Por favor revise que la fecha y hora de tu ordenador son correctas. Si tu reloj está mal configurado Bitcoin no funcionará correctamente.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2825,10 +2717,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Anteponer salida de depuracion con marca de tiempo</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="obsolete">Opciones SSL: (ver la Bitcoin Wiki para instrucciones de configuración SSL)</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation type="unfinished"></translation>
@@ -3031,14 +2919,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Error cargando wallet.dat: Billetera corrupta</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">Error cargando wallet.dat: Billetera necesita una vercion reciente de Bitcoin</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">La billetera necesita ser reescrita: reinicie Bitcoin para completar</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>Error cargando wallet.dat</translation>
@@ -3092,10 +2972,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Agrega un nodo para conectarse and attempt to keep the connection open</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">No es posible escuchar en el %s en este ordenador. Probablemente Bitcoin ya se está ejecutando.</translation>
     </message>
     <message>
         <location line="+39"/>

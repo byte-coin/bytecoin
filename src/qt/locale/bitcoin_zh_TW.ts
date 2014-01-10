@@ -260,10 +260,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>錢包加密確認</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">警告: 如果將錢包加密後忘記密碼, 你會&lt;b&gt;失去其中所有的百特幣&lt;/b&gt;!</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>你確定要將錢包加密嗎?</translation>
@@ -340,17 +336,17 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>訊息簽署...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>網路同步中...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>總覽</translation>
     </message>
@@ -390,7 +386,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>結束應用程式</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
         <source>Show information about Bytecoin</source>
         <translation>顯示百特幣相關資訊</translation>
     </message>
@@ -425,7 +421,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>密碼變更...</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation>從磁碟匯入區塊中...</translation>
     </message>
@@ -435,12 +451,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>重建磁碟區塊索引中...</translation>
     </message>
     <message>
-        <location line="-374"/>
+        <location line="-383"/>
         <source>Send coins to a Bytecoin address</source>
         <translation>付錢到百特幣位址</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+51"/>
         <source>Modify configuration options for Bytecoin</source>
         <translation>修改百特幣的設定選項</translation>
     </message>
@@ -470,13 +486,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>驗證訊息...</translation>
     </message>
     <message>
-        <location line="-168"/>
-        <location line="+557"/>
+        <location line="-167"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation>百特幣</translation>
     </message>
     <message>
-        <location line="-557"/>
+        <location line="-566"/>
         <source>Wallet</source>
         <translation>錢包</translation>
     </message>
@@ -506,7 +522,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation>關於百特幣</translation>
     </message>
@@ -536,17 +552,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>驗證訊息來確認是用指定的百特幣位址簽署的</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+27"/>
+        <location line="+37"/>
         <source>&amp;File</source>
         <translation>檔案</translation>
     </message>
@@ -556,12 +562,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>設定</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>求助</translation>
     </message>
@@ -582,7 +588,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>百特幣客戶端軟體</translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation>
             <numerusform>與百特幣網路有 %n 個連線在使用中</numerusform>

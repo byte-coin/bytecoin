@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">Informatio de Bitcoin</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt; versio</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -91,10 +83,6 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>&amp;Nova Inscriptio</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Haec sunt inscriptiones Bitcoin tuae pro accipendo pensitationes.  Cupias variam ad quemque mittentem dare ut melius scias quem tibi pensare.</translation>
-    </message>
-    <message>
         <location line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Copia Inscriptionem</translation>
@@ -103,10 +91,6 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>Monstra codicem &amp;QR</translation>
-    </message>
-    <message>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation type="obsolete">Signa nuntium ut demonstres inscriptionem Bitcoin a te possessam esse</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -134,10 +118,6 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>&amp;Exporta</translation>
     </message>
     <message>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation type="obsolete">Verifica nuntium ut cures signatum esse cum specificata inscriptione Bitcoin</translation>
-    </message>
-    <message>
         <location line="-41"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Verifica Nuntium</translation>
@@ -146,10 +126,6 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>&amp;Dele</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="obsolete">Hae sunt inscriptiones mittendi pensitationes.  Semper inspice quantitatem et inscriptionem accipiendi antequam nummos mittis.</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+58"/>
@@ -283,10 +259,6 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Confirma cifrationem cassidilis</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">Monitio: Si cassidile tuum cifras et tesseram amittis, tu &lt;b&gt;AMITTES OMNES TUOS NUMMOS BITOS&lt;/b&gt;!</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Certusne es te velle tuum cassidile cifrare?</translation>
@@ -317,10 +289,6 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Cassidile cifratum</translation>
-    </message>
-    <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Bitcoin iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -367,17 +335,17 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>Signa &amp;nuntium...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Synchronizans cum rete...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>&amp;Summarium</translation>
     </message>
@@ -417,11 +385,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Exi applicatione</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Monstra informationem de Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>Informatio de &amp;Qt</translation>
     </message>
@@ -451,7 +415,27 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>&amp;Muta tesseram...</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation>Importans frusta ab disco...</translation>
     </message>
@@ -461,15 +445,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Recreans indicem frustorum in disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Mitte nummos ad inscriptionem Bitcoin</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Muta configurationis optiones pro Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>Conserva cassidile in locum alium</translation>
     </message>
@@ -494,11 +470,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>&amp;Verifica nuntium...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Cassidile</translation>
     </message>
@@ -518,11 +490,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>&amp;Inscriptiones</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">&amp;Informatio de Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Monstra/Occulta</translation>
     </message>
@@ -537,15 +505,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Cifra claves privatas quae cassidili tui sunt</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="obsolete">Signa nuntios cum tuis inscriptionibus Bitcoin ut demonstres te eas possidere</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="obsolete">Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>&amp;Plica</translation>
     </message>
@@ -555,7 +515,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>&amp;Configuratio</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>&amp;Auxilium</translation>
     </message>
@@ -571,17 +531,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Bitcoin cliens</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n activa conexio ad rete Bitcoin</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation>Nulla fons frustorum absens...</translation>
     </message>
@@ -657,13 +607,13 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation>Recentissimo</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -678,7 +628,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -703,27 +653,17 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -775,10 +715,6 @@ Inscriptio: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="obsolete">URI intellegi non posse!  Huius causa possit inscriptionem Bitcoin non validam aut URI parametra maleformata.</translation>
-    </message>
-    <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Cassidile &lt;b&gt;cifratum&lt;/b&gt; est et iam nunc &lt;b&gt;reseratum&lt;/b&gt;</translation>
@@ -787,10 +723,6 @@ Inscriptio: %4
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Cassidile &lt;b&gt;cifratum&lt;/b&gt; est et iam nunc &lt;b&gt;seratum&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation type="obsolete">Error fatalis accidit.  Bitcoin nondum pergere tute potest, et exibit.</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -864,10 +796,6 @@ Inscriptio: %4
         <translation>Inserta inscriptio &quot;%1&quot; iam in libro inscriptionum est.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">Inscriptio inserta &quot;%1&quot; non valida inscriptio Bitcoin est.</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>Non potuisse cassidile reserare</translation>
@@ -880,10 +808,6 @@ Inscriptio: %4
 </context>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <source>Bitcoin-Qt</source>
-        <translation type="obsolete">Bitcoin-Qt</translation>
-    </message>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <source>version</source>
@@ -949,14 +873,6 @@ Inscriptio: %4
         <translation>Solve &amp;mercedem transactionis</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Pelle Bitcoin per se postquam in systema inire.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">&amp;Pelle Bitcoin cum inire systema</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation>Reconstitue omnes optiones clientis ad praedefinita.</translation>
@@ -972,17 +888,9 @@ Inscriptio: %4
         <translation>&amp;Rete</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Aperi per se portam clientis Bitcoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Designa portam utendo &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="obsolete">Connecte ad rete Bitcoin per SOCKS vicarium (e.g. quando conectens per Tor).</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -1085,10 +993,6 @@ Inscriptio: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Bitcoin iterum initiatum erit.</translation>
-    </message>
-    <message>
         <location line="-22"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Unita qua quantitates monstrare:</translation>
@@ -1097,10 +1001,6 @@ Inscriptio: %4
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Selige praedefinitam unitam subdivisionis monstrare in interfacie et quando nummos mittere</translation>
-    </message>
-    <message>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation type="obsolete">Num monstrare inscriptiones Bitcoin in enumeratione transactionum.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1155,10 +1055,6 @@ Inscriptio: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Haec configuratio effectiva erit postquam Bitcoin iterum initiatum erit.</translation>
-    </message>
-    <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>Inscriptio vicarii tradita non valida est.</translation>
@@ -1170,10 +1066,6 @@ Inscriptio: %4
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Schema</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Bitcoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     <message>
         <location line="+92"/>
@@ -1230,10 +1122,6 @@ Inscriptio: %4
 </context>
 <context>
     <name>PaymentServer</name>
-    <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="obsolete">Bitcoin incipere non potest: cliccare-ad-pensandum handler</translation>
-    </message>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start bytecoin: click-to-pay handler</source>
@@ -1405,10 +1293,6 @@ Inscriptio: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation type="obsolete">Monstra nuntium auxilii Bitcoin-Qt ut videas enumerationem possibilium optionum Bitcoin mandati initiantis.</translation>
-    </message>
-    <message>
         <location line="+3"/>
         <source>&amp;Show</source>
         <translation>&amp;Monstra</translation>
@@ -1424,30 +1308,14 @@ Inscriptio: %4
         <translation>Dies aedificandi</translation>
     </message>
     <message>
-        <source>Bitcoin - Debug window</source>
-        <translation type="obsolete">Bitcoin - Fenestra debug</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation type="obsolete">Bitcoin Nucleus</translation>
-    </message>
-    <message>
         <location line="+200"/>
         <source>Debug log file</source>
         <translation>Debug catalogi plica</translation>
     </message>
     <message>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="obsolete">Aperi plicam catalogi de Bitcoin debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
-    </message>
-    <message>
         <location line="+109"/>
         <source>Clear console</source>
         <translation>Vacuefac terminale</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">Bene ventio in terminale RPC de Bitcoin.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
@@ -1593,10 +1461,6 @@ Inscriptio: %4
         <translation>Pensa &amp;Ad:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Inscriptio cui mittere pensitationem (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location line="+94"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1638,10 +1502,6 @@ Inscriptio: %4
         <translation>Remove hunc accipientem</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Insero inscriptionem Bitcoin (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1663,10 +1523,6 @@ Inscriptio: %4
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Potes nuntios signare inscriptionibus tuis ut demonstres te eas possidere.  Cautus es non amibiguum signare, quia impetus phiscatorum conentur te fallere ut signes identitatem tuam ad eos.  Solas signa sententias cuncte descriptas quibus convenis.</translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Inscriptio qua signare nuntium (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1726,10 +1582,6 @@ Inscriptio: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="obsolete">Signa nuntium ut demonstres hanc inscriptionem Bitcoin a te possessa esse</translation>
-    </message>
-    <message>
         <location line="-143"/>
         <source>Sign &amp;Message</source>
         <translation>Signa &amp;Nuntium</translation>
@@ -1756,14 +1608,6 @@ Inscriptio: %4
         <translation>Insere inscriptionem signantem, nuntium (cura ut copias intermissiones linearum, spatia, tabs, et cetera exacte) et signationem infra ut nuntium verifices.  Cautus esto ne magis legas in signationem quam in nuntio signato ipso est, ut vites falli ab impetu homo-in-medio.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Inscriptio qua nuntius signatus est (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="obsolete">Verifica nuntium ut cures signatum esse cum specifica inscriptione Bitcoin</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation>Verifica &amp;Nuntium</translation>
@@ -1774,17 +1618,9 @@ Inscriptio: %4
         <translation>Reconstitue omnes campos verificandi nuntii</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Insere inscriptionem Bitcoin (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Clicca &quot;Signa Nuntium&quot; ut signatio generetur</translation>
-    </message>
-    <message>
-        <source>Enter Bitcoin signature</source>
-        <translation type="obsolete">Insere signationem Bitcoin</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -1866,10 +1702,6 @@ Inscriptio: %4
 </context>
 <context>
     <name>SplashScreen</name>
-    <message>
-        <source>The Bitcoin developers</source>
-        <translation type="obsolete">Bitcoin curatores</translation>
-    </message>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Bytecoin developers</source>
@@ -2419,17 +2251,9 @@ Inscriptio: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Versio de Bitcoin</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Usus:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Mitte mandatum ad -server vel bitcoind</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2445,14 +2269,6 @@ Inscriptio: %4
         <location line="+24"/>
         <source>Options:</source>
         <translation>Optiones:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Specifica configurationis plicam (praedefinitum: bitcoin.conf)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">Specifica pid plicam (praedefinitum: bitcoin.pid)</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2525,30 +2341,6 @@ Inscriptio: %4
         <translation>Accipe conexiones externas (praedefinitum: 1 nisi -proxy neque -connect)</translation>
     </message>
     <message>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
-</source>
-        <translation type="obsolete">%s, necesse est te rpcpassword constituere in plica configurationis:
-%s
-Hortatur te hanc fortuitam tesseram uti:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(non est necesse te hanc tesseram meminisse)
-Nomen usoris et tessera eadem esse NON POSSUNT.
-Si plica non existit, eam crea cum permissionibus ut eius dominus tantum sinitur id legere.
-Quoque hortatur alertnotify constituere ut tu notificetur de problematibus;
-exempli gratia: alertnotify=echo %%s | mail -s &quot;Bitcoin Notificatio&quot; admin@foo.com
-</translation>
-    </message>
-    <message>
         <location line="-63"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Error erat dum initians portam RPC %u pro auscultando in IPv6, labens retrorsum ad IPv4: %s</translation>
@@ -2557,10 +2349,6 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Bitcoin Notificatio&quot; a
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Conglutina ad inscriptionem datam et semper in eam ausculta.  Utere [moderatrum]:porta notationem pro IPv6</translation>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Non posse serare datorum indicem %s.  Bitcoin probabiliter iam operatur.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2601,10 +2389,6 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;Bitcoin Notificatio&quot; a
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Monitio: Monstratae transactiones fortasse non recta sint! Forte oportet tibi progredere, an aliis nodis progredere.</translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">Monitio: Sodes cura ut dies tempusque computatri tui recti sunt!  Si horologium tuum pravum est, Bitcoin non proprie fungetur.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2912,10 +2696,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Antepone pittacium temporis ante exscriptum de debug </translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="obsolete">Optiones SSL: (vide vici de Bitcoin pro instructionibus SSL configurationis)</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation>Selige versionem socks vicarii utendam (4-5, praedefinitum: 5)</translation>
@@ -3106,14 +2886,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Error legendi wallet.dat: Cassidile corruptum</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">Error legendi wallet.dat: Cassidili necesse est recentior versio Bitcoin</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">Cassidili necesse erat rescribi: Repelle Bitcoin ut compleas</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>Error legendi wallet.dat</translation>
@@ -3167,10 +2939,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Adice nodum cui conectere et conare sustinere conexionem apertam</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Non posse conglutinare ad %s in hoc cumputatro.  Bitcoin probabiliter iam operatur.</translation>
     </message>
     <message>
         <location line="+39"/>

@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">O Bitcoin-u</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt; verzija</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -85,10 +77,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-36"/>
         <source>&amp;New Address</source>
         <translation>&amp;Nova adresa</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Ovo su vaše Bitcoin adrese za primanje isplate. Možda želite dati drukčiju adresu svakom primatelju tako da možete pratiti tko je platio.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -267,10 +255,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Potvrdi šifriranje novčanika</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE BITCOINSE!&lt;/b&gt;</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
@@ -301,10 +285,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Novčanik šifriran</translation>
-    </message>
-    <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Bitcoin će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše bitcoine od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -351,17 +331,17 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>&amp;Potpišite poruku...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Usklađivanje s mrežom ...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>&amp;Pregled</translation>
     </message>
@@ -401,11 +381,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Izlazak iz programa</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Prikaži informacije o Bitcoinu</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>Više o &amp;Qt</translation>
     </message>
@@ -435,7 +411,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Promijena lozinke...</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation>Importiranje blokova sa diska...</translation>
     </message>
@@ -445,15 +441,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Re-indeksiranje blokova na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Slanje novca na bitcoin adresu</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Promijeni postavke konfiguracije za bitcoin</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>Napravite sigurnosnu kopiju novčanika na drugoj lokaciji</translation>
     </message>
@@ -478,11 +466,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Novčanik</translation>
     </message>
@@ -502,11 +486,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">&amp;O Bitcoinu</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation type="unfinished"></translation>
     </message>
@@ -521,7 +501,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>&amp;Datoteka</translation>
     </message>
@@ -531,7 +511,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Konfiguracija</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>&amp;Pomoć</translation>
     </message>
@@ -547,19 +527,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Bitcoin klijent</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n aktivna veza na Bitcoin mrežu</numerusform>
-            <numerusform>%n aktivne veze na Bitcoin mrežu</numerusform>
-            <numerusform>%n aktivnih veza na Bitcoin mrežu</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -641,13 +609,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Ažurno</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -662,7 +630,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -687,27 +655,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -842,10 +800,6 @@ Adresa:%4
         <translation>Upisana adresa &quot;%1&quot; je već u adresaru.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">Upisana adresa &quot;%1&quot; nije valjana bitcoin adresa.</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>Ne mogu otključati novčanik.</translation>
@@ -923,14 +877,6 @@ Adresa:%4
         <translation>Plati &amp;naknadu za transakciju</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Automatski pokreni Bitcoin kad se uključi računalo</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">&amp;Pokreni Bitcoin kod pokretanja sustava</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation type="unfinished"></translation>
@@ -946,17 +892,9 @@ Adresa:%4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Automatski otvori port Bitcoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapiraj port koristeći &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="obsolete">Spojite se na Bitcon mrežu putem SOCKS proxy-a (npr. kod povezivanja kroz Tor)</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -1568,10 +1506,6 @@ Adresa:%4
         <translation>Ukloni ovog primatelja</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Unesite Bitcoin adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1593,10 +1527,6 @@ Adresa:%4
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Možete potpisati poruke sa svojom adresom kako bi dokazali da ih posjedujete. Budite oprezni da ne potpisujete ništa mutno, jer bi vas phishing napadi mogli na prevaru natjerati da prepišete svoj identitet njima. Potpisujte samo detaljno objašnjene izjave sa kojima se slažete.</translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Unesite Bitcoin adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1682,10 +1612,6 @@ Adresa:%4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Unesite Bitcoin adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation type="unfinished"></translation>
@@ -1694,10 +1620,6 @@ Adresa:%4
         <location line="+14"/>
         <source>Reset all verify message fields</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Unesite Bitcoin adresu (npr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
@@ -2343,17 +2265,9 @@ Adresa:%4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Bitcoin verzija</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Upotreba:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Pošalji komandu usluzi -server ili bitcoind</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2369,14 +2283,6 @@ Adresa:%4
         <location line="+24"/>
         <source>Options:</source>
         <translation>Postavke:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Odredi konfiguracijsku datoteku (ugrađeni izbor: bitcoin.conf)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">Odredi proces ID datoteku (ugrađeni izbor: bitcoin.pid)</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2497,10 +2403,6 @@ Adresa:%4
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">Upozorenje: Molimo provjerite jesu li datum i vrijeme na vašem računalu točni. Ako vaš sat ide krivo, Bitcoin neće raditi ispravno.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2808,10 +2710,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Dodaj izlaz debuga na početak sa vremenskom oznakom</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="obsolete">SSL postavke: (za detalje o podešavanju SSL opcija vidi Bitcoin Wiki)</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation type="unfinished"></translation>
@@ -3002,14 +2900,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Greška kod učitavanja wallet.dat: Novčanik pokvaren</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">Greška kod učitavanja wallet.dat: Novčanik zahtjeva noviju verziju Bitcoina</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">Novčanik je trebao prepravak: ponovo pokrenite Bitcoin</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>Greška kod učitavanja wallet.dat</translation>
@@ -3063,10 +2953,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Unesite nod s kojim se želite spojiti and attempt to keep the connection open</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Program ne može koristiti %s na ovom računalu.  Bitcoin program je vjerojatno već pokrenut.</translation>
     </message>
     <message>
         <location line="+39"/>

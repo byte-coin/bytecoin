@@ -243,8 +243,11 @@ void BitcoinGUI::createActions()
     openRPCConsoleAction = new QAction(QIcon(":/icons/debugwindow"), tr("&Debug window"), this);
     openRPCConsoleAction->setStatusTip(tr("Open debugging and diagnostic console"));
 
-    openMinerAction = new QAction(QIcon(":/icons/mining"), tr("&Open Miner"), this);
-    openMinerAction->setStatusTip(tr("Open miner to mining"));
+    openMiningTutorialAction = new QAction(QIcon(":/icons/tutorial"), tr("&Pool Mining Tutorial"), this);
+    openMiningTutorialAction->setStatusTip(tr("Open pool mining tutorial"));
+
+    openMinerAction = new QAction(QIcon(":/icons/mining"), tr("&Solo Mining"), this);
+    openMinerAction->setStatusTip(tr("Solo mining"));
 
     connect(quitAction, SIGNAL(triggered()), qApp, SLOT(quit()));
     connect(checkUpdateAction, SIGNAL(triggered()), this, SLOT(checkUpdateClicked()));
@@ -258,6 +261,7 @@ void BitcoinGUI::createActions()
     connect(signMessageAction, SIGNAL(triggered()), this, SLOT(gotoSignMessageTab()));
     connect(verifyMessageAction, SIGNAL(triggered()), this, SLOT(gotoVerifyMessageTab()));
     connect(openMinerAction, SIGNAL(triggered()), this, SLOT(openMinerClicked()));
+    connect(openMiningTutorialAction, SIGNAL(triggered()), this, SLOT(openMiningTutorialClicked()));
 }
 
 void BitcoinGUI::createMenuBar()
@@ -284,8 +288,9 @@ void BitcoinGUI::createMenuBar()
     settings->addSeparator();
     settings->addAction(optionsAction);
 
-#ifdef WIN32
     QMenu *mining = appMenuBar->addMenu(tr("&Mining"));
+    mining->addAction(openMiningTutorialAction);
+#ifdef WIN32
     mining->addAction(openMinerAction);
 #endif
 
@@ -471,6 +476,11 @@ void BitcoinGUI::openMinerClicked()
     QProcess *minerProcess = new QProcess(this);
     minerProcess->start(QString("\"") + QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation)
                         + QString("\\BytecoinMiner\\guiminer.exe\""));
+}
+
+void BitcoinGUI::openMiningTutorialClicked()
+{
+    QDesktopServices::openUrl(QUrl("http://www.byte-coin.org/mines.php", QUrl::TolerantMode));
 }
 
 void BitcoinGUI::aboutClicked()

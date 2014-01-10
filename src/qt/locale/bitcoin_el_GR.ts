@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">Σχετικά με το Bitcoin</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">Έκδοση Bitcoin</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -92,10 +84,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Νέα διεύθυνση</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Αυτές είναι οι Bitcoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
-    </message>
-    <message>
         <location line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Αντιγραφή διεύθυνσης</translation>
@@ -104,10 +92,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>Δείξε &amp;QR κωδικα</translation>
-    </message>
-    <message>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation type="obsolete">Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Bitcoin</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -135,10 +119,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Εξαγωγή</translation>
     </message>
     <message>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation type="obsolete">Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Bitcoin</translation>
-    </message>
-    <message>
         <location line="-41"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Επιβεβαίωση μηνύματος</translation>
@@ -147,10 +127,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>&amp;Διαγραφή</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="obsolete">Αυτές είναι οι Bitcoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+58"/>
@@ -284,11 +260,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Επιβεβαίωσε την κρυπτογραφηση του πορτοφολιού</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">Προσοχη: Εαν κρυπτογραφησεις το πορτοφολι σου και χάσεις τον κωδικο σου θα χάσεις &lt;b&gt; ΟΛΑ ΣΟΥ ΤΑ BITCOINS&lt;/b&gt;!
-Είσαι σίγουρος ότι θέλεις να κρυπτογραφησεις το πορτοφολι;</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Είστε σίγουροι ότι θέλετε να κρυπτογραφήσετε το πορτοφόλι σας;</translation>
@@ -319,10 +290,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Κρυπτογραφημενο πορτοφολι</translation>
-    </message>
-    <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Το Bitcoin θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα bitcoins σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικο.</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -369,17 +336,17 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>Υπογραφή &amp;Μηνύματος...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Συγχρονισμός με το δίκτυο...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>&amp;Επισκόπηση</translation>
     </message>
@@ -419,11 +386,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Εξοδος από την εφαρμογή</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Εμφάνισε πληροφορίες σχετικά με το Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>Σχετικά με &amp;Qt</translation>
     </message>
@@ -453,7 +416,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Άλλαξε κωδικο πρόσβασης</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation>Εισαγωγή μπλοκ από τον σκληρο δίσκο ... </translation>
     </message>
@@ -463,15 +446,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Φόρτωση ευρετηρίου μπλοκ στον σκληρο δισκο...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Στείλε νομισματα σε μια διεύθυνση bitcoin</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Επεργασία  ρυθμισεων επιλογών για το Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>Δημιουργία αντιγράφου ασφαλείας πορτοφολιού σε άλλη τοποθεσία</translation>
     </message>
@@ -496,11 +471,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Επιβεβαίωση μηνύματος</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Πορτοφόλι</translation>
     </message>
@@ -520,11 +491,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Διεύθυνσεις</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">&amp;Σχετικα:Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Εμφάνισε/Κρύψε</translation>
     </message>
@@ -539,15 +506,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Κρυπτογραφήστε τα ιδιωτικά κλειδιά που ανήκουν στο πορτοφόλι σας </translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="obsolete">Υπογράψτε ένα μήνυμα για να βεβαιώσετε πως είστε ο κάτοχος αυτής της διεύθυνσης</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="obsolete">Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>&amp;Αρχείο</translation>
     </message>
@@ -557,7 +516,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Ρυθμίσεις</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>&amp;Βοήθεια</translation>
     </message>
@@ -573,18 +532,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Πελάτης Bitcoin</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n ενεργή σύνδεση στο δίκτυο Bitcoin</numerusform>
-            <numerusform>%n ενεργές συνδέσεις στο δίκτυο Βitcoin</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation>Η πηγή του μπλοκ δεν ειναι διαθέσιμη... </translation>
     </message>
@@ -665,13 +613,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Ενημερωμένο</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -686,7 +634,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -711,27 +659,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -784,10 +722,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="obsolete">Το URI δεν μπορεί να αναλυθεί! Αυτό μπορεί να προκληθεί από μια μη έγκυρη διεύθυνση Bitcoin ή ακατάλληλη παραμέτρο URI.</translation>
-    </message>
-    <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Το πορτοφόλι είναι &lt;b&gt;κρυπτογραφημένο&lt;/b&gt; και &lt;b&gt;ξεκλείδωτο&lt;/b&gt;</translation>
@@ -796,10 +730,6 @@ Address: %4
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Το πορτοφόλι είναι &lt;b&gt;κρυπτογραφημένο&lt;/b&gt; και &lt;b&gt;κλειδωμένο&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation type="obsolete">Παρουσιάστηκε ανεπανόρθωτο σφάλμα. Το Bitcoin δεν μπορεί πλέον να συνεχίσει με ασφάλεια και θα τερματισθει.</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -873,10 +803,6 @@ Address: %4
         <translation>Η διεύθυνση &quot;%1&quot; βρίσκεται ήδη στο βιβλίο διευθύνσεων.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">Η διεύθυνση &quot;%1&quot; δεν είναι έγκυρη Bitcoin διεύθυνση.</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>Δεν είναι δυνατό το ξεκλείδωμα του πορτοφολιού.</translation>
@@ -889,10 +815,6 @@ Address: %4
 </context>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <source>Bitcoin-Qt</source>
-        <translation type="obsolete">bitcoin-qt</translation>
-    </message>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <source>version</source>
@@ -958,14 +880,6 @@ Address: %4
         <translation>Αμοιβή &amp;συναλλαγής</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Αυτόματη εκκίνηση του Bitcoin μετά την εισαγωγή στο σύστημα</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">&amp;Έναρξη του Βιtcoin κατά την εκκίνηση του συστήματος</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation>Επαναφορα όλων των επιλογων του πελάτη σε default.</translation>
@@ -981,17 +895,9 @@ Address: %4
         <translation>&amp;Δίκτυο</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Αυτόματο άνοιγμα των θυρών Bitcoin στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Απόδοση θυρών με χρήστη &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="obsolete">Σύνδεση στο Bitcoin δίκτυο μέσω διαμεσολαβητή SOCKS4 (π.χ. για σύνδεση μέσω Tor)</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -1094,10 +1000,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Εδώ μπορεί να ρυθμιστεί η γλώσσα διεπαφής χρήστη. Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του Bitcoin.</translation>
-    </message>
-    <message>
         <location line="-22"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Μονάδα μέτρησης:</translation>
@@ -1106,10 +1008,6 @@ Address: %4
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Διαλέξτε την προεπιλεγμένη υποδιαίρεση που θα εμφανίζεται όταν στέλνετε νομίσματα.</translation>
-    </message>
-    <message>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation type="obsolete">Επιλέξτε αν θέλετε να εμφανίζονται οι διευθύνσεις Bitcoin στη λίστα συναλλαγών.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1164,10 +1062,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του Bitcoin.</translation>
-    </message>
-    <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>Δεν είναι έγκυρη η διεύθυνση διαμεσολαβητή</translation>
@@ -1179,10 +1073,6 @@ Address: %4
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Φόρμα</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Bitcoin μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
     </message>
     <message>
         <location line="+92"/>
@@ -1239,10 +1129,6 @@ Address: %4
 </context>
 <context>
     <name>PaymentServer</name>
-    <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="obsolete">Δεν είναι δυνατή η εκκίνηση του Bitcoin: click-to-pay handler</translation>
-    </message>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start bytecoin: click-to-pay handler</source>
@@ -1414,10 +1300,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation type="obsolete">Εμφανιση του Bitcoin-Qt μήνυματος βοήθειας για να πάρετε μια λίστα με τις πιθανές επιλογές Bitcoin γραμμής εντολών.</translation>
-    </message>
-    <message>
         <location line="+3"/>
         <source>&amp;Show</source>
         <translation>&amp;Εμφάνιση</translation>
@@ -1433,30 +1315,14 @@ Address: %4
         <translation>Ημερομηνία κατασκευής</translation>
     </message>
     <message>
-        <source>Bitcoin - Debug window</source>
-        <translation type="obsolete">Bitcoin - Παράθυρο αποσφαλμάτωσης</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation type="obsolete">Bitcoin Core</translation>
-    </message>
-    <message>
         <location line="+200"/>
         <source>Debug log file</source>
         <translation>Αρχείο καταγραφής εντοπισμού σφαλμάτων </translation>
     </message>
     <message>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="obsolete">Ανοίξτε το αρχείο καταγραφής εντοπισμού σφαλμάτων από τον τρέχοντα κατάλογο δεδομένων. Αυτό μπορεί να πάρει μερικά δευτερόλεπτα για τα μεγάλα αρχεία καταγραφής. </translation>
-    </message>
-    <message>
         <location line="+109"/>
         <source>Clear console</source>
         <translation>Καθαρισμός κονσόλας</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">Καλώς ήρθατε στην Bitcoin RPC κονσόλα.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
@@ -1602,10 +1468,6 @@ Address: %4
         <translation>Πληρωμή &amp;σε:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Διεύθυνση αποστολής της πληρωμής  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location line="+94"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1647,10 +1509,6 @@ Address: %4
         <translation>Αφαίρεση αποδέκτη</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Εισάγετε μια διεύθυνση Bitcoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1672,10 +1530,6 @@ Address: %4
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Μπορείτε να υπογράφετε μηνύματα με τις διευθύνσεις σας, ώστε ν&apos; αποδεικνύετε πως αυτές σας ανήκουν. Αποφεύγετε να υπογράφετε κάτι αόριστο καθώς ενδέχεται να εξαπατηθείτε. Υπογράφετε μόνο πλήρης δηλώσεις με τις οποίες συμφωνείτε.</translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Εισάγετε μια διεύθυνση Bitcoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1735,10 +1589,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="obsolete">Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Bitcoin</translation>
-    </message>
-    <message>
         <location line="-143"/>
         <source>Sign &amp;Message</source>
         <translation>Υπογραφη μήνυματος</translation>
@@ -1765,14 +1615,6 @@ Address: %4
         <translation>Πληκτρολογήστε την υπογραφή διεύθυνσης, μήνυμα (βεβαιωθείτε ότι έχετε αντιγράψει τις αλλαγές γραμμής, κενά, tabs, κ.λπ. ακριβώς) και την υπογραφή παρακάτω, για να ελέγξει το μήνυμα. Να είστε προσεκτικοί για να μην διαβάσετε περισσότερα στην υπογραφή ό, τι είναι στην υπογραφή ίδιο το μήνυμα , για να μην εξαπατηθούν από έναν άνθρωπο -in - the-middle επίθεση.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Εισάγετε μια διεύθυνση Bitcoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="obsolete">Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση Bitcoin</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation>Επιβεβαίωση μηνύματος</translation>
@@ -1783,17 +1625,9 @@ Address: %4
         <translation>Επαναφορά όλων επαλήθευμενων πεδίων μήνυματος </translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Εισάγετε μια διεύθυνση Bitcoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Κάντε κλικ στο &quot;Υπογραφή Μηνύματος&quot; για να λάβετε την υπογραφή</translation>
-    </message>
-    <message>
-        <source>Enter Bitcoin signature</source>
-        <translation type="obsolete">Εισαγωγή υπογραφής Bitcoin</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -1875,10 +1709,6 @@ Address: %4
 </context>
 <context>
     <name>SplashScreen</name>
-    <message>
-        <source>The Bitcoin developers</source>
-        <translation type="obsolete">Οι Bitcoin προγραμματιστές </translation>
-    </message>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Bytecoin developers</source>
@@ -2433,17 +2263,9 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Έκδοση Bitcoin</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Χρήση:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Αποστολή εντολής στον εξυπηρετητή ή στο bitcoind</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2459,14 +2281,6 @@ Address: %4
         <location line="+24"/>
         <source>Options:</source>
         <translation>Επιλογές:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Ορίστε αρχείο ρυθμίσεων (προεπιλογή: bitcoin.conf)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">Ορίστε αρχείο pid (προεπιλογή: bitcoind.pid)</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2539,30 +2353,6 @@ Address: %4
         <translation>Να δέχεσαι συνδέσεις από έξω(προεπιλογή:1)</translation>
     </message>
     <message>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
-</source>
-        <translation type="obsolete">%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
-</translation>
-    </message>
-    <message>
         <location line="-63"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Ένα σφάλμα συνέβη καθώς προετοιμαζόταν η υποδοχη RPC %u για αναμονη του IPv6, επεσε πισω στο IPv4:%s</translation>
@@ -2571,10 +2361,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Αποθηκευση σε συγκεκριμένη διεύθυνση. Χρησιμοποιήστε τα πλήκτρα [Host] : συμβολισμός θύρα για IPv6</translation>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Αδυναμία κλειδώματος του φακέλου δεδομένων %s. Πιθανώς το Bitcoin να είναι ήδη ενεργό.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2616,10 +2402,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Προειδοποίηση: Εμφανίσεις συναλλαγων δεν μπορεί να είναι σωστες! Μπορεί να χρειαστεί να αναβαθμίσετε, ή άλλοι κόμβοι μπορεί να χρειαστεί να αναβαθμίστουν. </translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">Προειδοποίηση: Παρακαλώ βεβαιωθείτε πως η ημερομηνία κι ώρα του συστήματός σας είναι σωστές. Αν το ρολόι του υπολογιστή σας πάει λάθος, ενδέχεται να μη λειτουργεί σωστά το Bitcoin.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2927,10 +2709,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Χρονοσφραγίδα πληροφοριών εντοπισμού σφαλμάτων</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="obsolete">Ρυθμίσεις SSL: (ανατρέξτε στο Bitcoin Wiki για οδηγίες ρυθμίσεων SSL)</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation>Επιλέξτε την έκδοση του διαμεσολαβητη για να χρησιμοποιήσετε (4-5 , προεπιλογή: 5)</translation>
@@ -3121,14 +2899,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Σφάλμα φόρτωσης wallet.dat: Κατεστραμμένο Πορτοφόλι</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του Bitcoin</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">Απαιτείται η επανεγγραφή του Πορτοφολιού, η οποία θα ολοκληρωθεί στην επανεκκίνηση του Bitcoin</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>Σφάλμα φόρτωσης αρχείου wallet.dat</translation>
@@ -3182,10 +2952,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Προσέθεσε ένα κόμβο για σύνδεση και προσπάθησε να κρατήσεις την σύνδεση ανοιχτή</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Αδύνατη η σύνδεση με τη θύρα %s αυτού του υπολογιστή. Το Bitcoin είναι πιθανώς ήδη ενεργό.</translation>
     </message>
     <message>
         <location line="+39"/>

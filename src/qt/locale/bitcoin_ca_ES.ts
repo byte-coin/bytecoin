@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">Sobre Bitcoin</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt; versió</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -87,10 +79,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Nova adreça</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Aquestes són les teves adreces Bitcoin per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
-    </message>
-    <message>
         <location line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Copiar adreça</translation>
@@ -99,10 +87,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>Mostrar codi &amp;QR</translation>
-    </message>
-    <message>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation type="obsolete">Signa el missatge per provar que ets propietari de l&apos;adreça Bitcoin</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -130,10 +114,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation type="obsolete">Verificar un missatge per asegurar-se que ha estat signat amb una adreça Bitcoin específica</translation>
-    </message>
-    <message>
         <location line="-41"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Verificar el missatge</translation>
@@ -142,10 +122,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>&amp;Esborrar</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="obsolete">Aquestes són la seva adreça de Bitcoin per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+58"/>
@@ -279,10 +255,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Confirmar l&apos;encriptació del moneder</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">Advertència: Si encripteu el vostre moneder i perdeu la constrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES BITCOINS&lt;/b&gt;!</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Esteu segur que voleu encriptar el vostre moneder?</translation>
@@ -313,10 +285,6 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Moneder encriptat</translation>
-    </message>
-    <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Bitcoin es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus bitcoins de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -363,17 +331,17 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>Signar &amp;missatge...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Sincronitzant amb la xarxa ...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>&amp;Panorama general</translation>
     </message>
@@ -413,11 +381,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Sortir de l&apos;aplicació</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Mostra informació sobre Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>Sobre &amp;Qt</translation>
     </message>
@@ -447,7 +411,27 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Canviar contrasenya...</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation>Important blocs del disc..</translation>
     </message>
@@ -457,15 +441,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Re-indexant blocs al disc...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Enviar monedes a una adreça Bitcoin</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Modificar les opcions de configuració per bitcoin</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>Realitzar còpia de seguretat del moneder a un altre directori</translation>
     </message>
@@ -490,11 +466,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Verifica el missatge..</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Moneder</translation>
     </message>
@@ -514,11 +486,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Adreces</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">&amp;Sobre Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Mostrar / Amagar</translation>
     </message>
@@ -533,15 +501,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Xifrar les claus privades pertanyents al seu moneder</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="obsolete">Signa el missatges amb la seva adreça de Bitcoin per provar que les poseeixes</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="obsolete">Verificar els missatges per assegurar-te que han estat signades amb una adreça Bitcoin específica.</translation>
-    </message>
-    <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>&amp;Arxiu</translation>
     </message>
@@ -551,7 +511,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Configuració</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>&amp;Ajuda</translation>
     </message>
@@ -567,19 +527,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Client Bitcoin</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n connexió activa a la xarxa Bitcoin</numerusform>
-            <numerusform>%n connexions actives a la xarxa Bitcoin</numerusform>
-            <numerusform></numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -661,13 +609,13 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Al dia</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -682,7 +630,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -707,27 +655,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -777,10 +715,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="obsolete">la URI no pot ser processada! Això es pot ser causat per una adreça Bitcoin invalida o paràmetres URI malformats.</translation>
-    </message>
-    <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>El moneder està &lt;b&gt;encriptat&lt;/b&gt; i actualment &lt;b&gt;desbloquejat&lt;/b&gt;</translation>
@@ -789,10 +723,6 @@ Address: %4
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>El moneder està &lt;b&gt;encriptat&lt;/b&gt; i actualment &lt;b&gt;bloquejat&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation type="obsolete">Ha tingut lloc un error fatal. Bitcoin no pot continuar executant-se de manera segura i es tancará.</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -866,10 +796,6 @@ Address: %4
         <translation>L&apos;adreça introduïda &quot;%1&quot; ja és present a la llibreta d&apos;adreces.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">L&apos;adreça introduida &quot;%1&quot; no és una adreça Bitcoin valida.</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>No s&apos;ha pogut desbloquejar el moneder.</translation>
@@ -882,10 +808,6 @@ Address: %4
 </context>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <source>Bitcoin-Qt</source>
-        <translation type="obsolete">Bitcoin-Qt</translation>
-    </message>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <source>version</source>
@@ -951,14 +873,6 @@ Address: %4
         <translation>Pagar &amp;comisió de transacció</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Iniciar automàticament Bitcoin després de l&apos;inici de sessió del sistema.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">&amp;Iniciar Bitcoin al inici de sessió del sistema.</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation>Reestablir totes les opcions del client.</translation>
@@ -974,17 +888,9 @@ Address: %4
         <translation>&amp;Xarxa</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Obrir el port del client de Bitcoin al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Port obert amb &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="obsolete">Connectar a la xarxa Bitcoin a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -1087,10 +993,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï Bitcoin.</translation>
-    </message>
-    <message>
         <location line="-22"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Unitats per mostrar les quantitats en:</translation>
@@ -1099,10 +1001,6 @@ Address: %4
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Sel·lecciona la unitat de subdivisió per defecte per mostrar en la interficie quan s&apos;envien monedes.</translation>
-    </message>
-    <message>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation type="obsolete">Mostrar adreces Bitcoin als llistats de transaccions o no.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1157,10 +1055,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Aquesta configuració tindrà efecte un cop es reiniciï Bitcoin.</translation>
-    </message>
-    <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>L&apos;adreça proxy introduïda és invalida.</translation>
@@ -1172,10 +1066,6 @@ Address: %4
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Formulari</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Bitcoin un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="+92"/>
@@ -1232,10 +1122,6 @@ Address: %4
 </context>
 <context>
     <name>PaymentServer</name>
-    <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="obsolete">No es pot iniciar bitcoin: manejador clicla-per-pagar</translation>
-    </message>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start bytecoin: click-to-pay handler</source>
@@ -1407,10 +1293,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation type="obsolete">Mostrar el missatge d&apos;ajuda de Bitcoin-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de Bitcoin.</translation>
-    </message>
-    <message>
         <location line="+3"/>
         <source>&amp;Show</source>
         <translation>&amp;Mostrar</translation>
@@ -1426,30 +1308,14 @@ Address: %4
         <translation>Data de compilació</translation>
     </message>
     <message>
-        <source>Bitcoin - Debug window</source>
-        <translation type="obsolete">Bitcoin -Finestra de debug</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation type="obsolete">Nucli de Bitcoin</translation>
-    </message>
-    <message>
         <location line="+200"/>
         <source>Debug log file</source>
         <translation>Dietàri de debug</translation>
     </message>
     <message>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="obsolete">Obrir el dietari de debug de Bitcoin del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
-    </message>
-    <message>
         <location line="+109"/>
         <source>Clear console</source>
         <translation>Netejar consola</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">Benvingut a la consola RPC de Bitcoin</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
@@ -1595,10 +1461,6 @@ Address: %4
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">La adreça a on envia el pagament (per exemple: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location line="+94"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1640,10 +1502,6 @@ Address: %4
         <translation>Eliminar aquest destinatari</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Introdueixi una adreça de Bitcoin (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1665,10 +1523,6 @@ Address: %4
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Pots signar missatges amb la teva adreça per provar que són teus. Sigues cautelòs al signar qualsevol cosa, ja que els atacs phising poden intentar confondre&apos;t per a que els hi signis amb la teva identitat. Tan sols signa als documents completament detallats amb els que hi estàs d&apos;acord.</translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">La adreça amb la que signat els missatges (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1728,10 +1582,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="obsolete">Signa el missatge per provar que ets propietari d&apos;aquesta adreça Bitcoin</translation>
-    </message>
-    <message>
         <location line="-143"/>
         <source>Sign &amp;Message</source>
         <translation>Signar &amp;Missatge</translation>
@@ -1758,14 +1608,6 @@ Address: %4
         <translation>Introdueixi l&apos;adreça signant, missatge (assegura&apos;t que copies salts de línia, espais, tabuladors, etc excactament tot el text) i la signatura a sota per verificar el missatge. Per evitar ser enganyat per un atac home-entre-mig, vés amb compte de no llegir més en la signatura del que hi ha al missatge signat mateix.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">La adreça amb el que el missatge va ser signat (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="obsolete">Verificar el missatge per assegurar-se que ha estat signat amb una adreça Bitcoin específica</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation>Verificar &amp;Missatge</translation>
@@ -1776,17 +1618,9 @@ Address: %4
         <translation>Neteja tots els camps de verificació de missatge</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Introdueixi una adreça de Bitcoin (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Clica &quot;Signar Missatge&quot; per a generar una signatura</translation>
-    </message>
-    <message>
-        <source>Enter Bitcoin signature</source>
-        <translation type="obsolete">Introduïr una clau Bitcoin</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2427,17 +2261,9 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Versió de Bitcoin</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Ús:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Enviar comanda a -servidor o bitcoind</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2453,14 +2279,6 @@ Address: %4
         <location line="+24"/>
         <source>Options:</source>
         <translation>Opcions:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Especificat arxiu de configuració (per defecte: bitcoin.conf)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">Especificar arxiu pid (per defecte: bitcoind.pid)</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2533,20 +2351,6 @@ Address: %4
         <translation>Aceptar connexions d&apos;afora (per defecte: 1 si no -proxy o -connect)</translation>
     </message>
     <message>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
-</source>
-        <translation type="obsolete">%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=bitcoinrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com</translation>
-    </message>
-    <message>
         <location line="-63"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Ha sorgit un error al configurar el port RPC %u escoltant a IPv6, retrocedint a IPv4: %s</translation>
@@ -2555,10 +2359,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Vincular a una adreça específica i sempre escoltar-hi. Utilitza la notació [host]:port per IPv6</translation>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation type="obsolete">No es pot bloquejar el directori de dades %s. Probablement Bitcoin ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2599,10 +2399,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Advertència: Les transaccions mostrades poden no ser correctes! Pot esser que necessitis actualitzar, o bé que altres nodes ho necessitin.</translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, Bitcoin no funcionará de manera apropiada.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2910,10 +2706,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Anteposar estampa temporal a les dades de debug</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="obsolete">Opcions SSL: (veure la Wiki de Bitcoin per a instruccions de configuració SSL)</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation>Selecciona la versió de socks proxy a utilitzar (4-5, per defecte: 5)</translation>
@@ -3104,14 +2896,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Error carregant wallet.dat: Moneder corrupte</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">Error carregant wallet.dat: El moneder requereix una versió de Bitcoin més moderna</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">El moneder necesita ser re-escrit: re-inicia Bitcoin per a completar la tasca</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>Error carregant wallet.dat</translation>
@@ -3165,10 +2949,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Afegir un node per a connectar&apos;s-hi i intentar mantenir la connexió oberta</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Impossible d&apos;unir %s en aquest ordinador. Probablement Bitcoin ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+39"/>

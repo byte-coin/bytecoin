@@ -104,6 +104,7 @@ private:
     QAction *aboutQtAction;
     QAction *openRPCConsoleAction;
     QAction *openMinerAction;
+    QAction *openMiningTutorialAction;
 
     QSystemTrayIcon *trayIcon;
     Notificator *notificator;
@@ -187,6 +188,8 @@ private slots:
     void aboutClicked();
     /** Open mining application */
     void openMinerClicked();
+    /** Open pool mining tutorial */
+    void openMiningTutorialClicked();
 #ifndef Q_OS_MAC
     /** Handle tray icon clicked */
     void trayIconActivated(QSystemTrayIcon::ActivationReason reason);

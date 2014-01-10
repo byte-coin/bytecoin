@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">Om Bitcoin</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoin&lt;/b&gt; version</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -92,10 +84,6 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Ny adresse</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Dette er dine Bitcoin-adresser til at modtage betalinger med. Du kan give en forskellig adresse til hver afsender, så du kan holde styr på, hvem der betaler dig.</translation>
-    </message>
-    <message>
         <location line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>Kopier adresse</translation>
@@ -104,10 +92,6 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>Vis QR-kode</translation>
-    </message>
-    <message>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation type="obsolete">Underskriv en besked for at bevise, at en Bitcoin-adresse tilhører dig</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -135,10 +119,6 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Eksporter</translation>
     </message>
     <message>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation type="obsolete">Efterprøv en besked for at sikre, at den er underskrevet med den angivne Bitcoin-adresse</translation>
-    </message>
-    <message>
         <location line="-41"/>
         <source>&amp;Verify Message</source>
         <translation>Efterprøv besked</translation>
@@ -147,10 +127,6 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>Slet</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="obsolete">Disse er dine Bitcoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender bitcoins.</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+58"/>
@@ -284,10 +260,6 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Bekræft tegnebogskryptering</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">Advarsel: Hvis du krypterer din tegnebog og mister din adgangskode, vil du &lt;b&gt;MISTE ALLE DINE BITCOINS&lt;/b&gt;!</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Er du sikker på, at du ønsker at kryptere din tegnebog?</translation>
@@ -318,10 +290,6 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Tegnebog krypteret</translation>
-    </message>
-    <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Bitcoin vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine bitcoins fuldt ud mod at blive stjålet af malware på din computer.</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -368,17 +336,17 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>Underskriv besked...</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Synkroniserer med netværk...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>Oversigt</translation>
     </message>
@@ -418,11 +386,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Afslut program</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Vis informationer om Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>Om Qt</translation>
     </message>
@@ -452,7 +416,27 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Skift adgangskode...</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation>Importerer blokke fra disken...</translation>
     </message>
@@ -462,15 +446,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Genindekserer blokke på disken...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Send bitcoins til en Bitcoin-adresse</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Rediger konfigurationsindstillinger af Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>Lav sikkerhedskopi af tegnebogen til et andet sted</translation>
     </message>
@@ -495,11 +471,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Efterprøv besked...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Tegnebog</translation>
     </message>
@@ -519,11 +491,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Adresser</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">Om Bitcoin</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation>Vis/skjul</translation>
     </message>
@@ -538,15 +506,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Krypter de private nøgler, der hører til din tegnebog</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="obsolete">Underskriv beskeder med dine Bitcoin-adresser for at bevise, at de tilhører dig</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="obsolete">Efterprøv beskeder for at sikre, at de er underskrevet med de(n) angivne Bitcoin-adresse(r)</translation>
-    </message>
-    <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>Fil</translation>
     </message>
@@ -556,7 +516,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Indstillinger</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>Hjælp</translation>
     </message>
@@ -572,18 +532,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>[testnetværk]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Bitcoin-klient</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n aktiv(e) forbindelse(r) til Bitcoin-netværket</numerusform>
-            <numerusform>%n aktiv(e) forbindelse(r) til Bitcoin-netværket</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation>Ingen blokkilde tilgængelig...</translation>
     </message>
@@ -662,13 +611,13 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Opdateret</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -683,7 +632,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -708,27 +657,17 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -781,10 +720,6 @@ Adresse: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="obsolete">URI kan ikke fortolkes! Dette kan skyldes en ugyldig Bitcoin-adresse eller misdannede URI-parametre.</translation>
-    </message>
-    <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Tegnebog er &lt;b&gt;krypteret&lt;/b&gt; og i øjeblikket &lt;b&gt;ulåst&lt;/b&gt;</translation>
@@ -793,10 +728,6 @@ Adresse: %4
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Tegnebog er &lt;b&gt;krypteret&lt;/b&gt; og i øjeblikket &lt;b&gt;låst&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation type="obsolete">Der opstod en fatal fejl. Bitcoin kan ikke længere fortsætte sikkert og vil afslutte.</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -870,10 +801,6 @@ Adresse: %4
         <translation>Den indtastede adresse &quot;%1&quot; er allerede i adressebogen.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">Den indtastede adresse &quot;%1&quot; er ikke en gyldig Bitcoin-adresse.</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>Kunne ikke låse tegnebog op.</translation>
@@ -886,10 +813,6 @@ Adresse: %4
 </context>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <source>Bitcoin-Qt</source>
-        <translation type="obsolete">Bitcoin-Qt</translation>
-    </message>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <source>version</source>
@@ -955,14 +878,6 @@ Adresse: %4
         <translation>Betal transaktionsgebyr</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Start Bitcoin automatisk, når der logges ind på systemet</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">Start Bitcoin, når systemet startes</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation>Nulstil alle klientindstillinger til deres standard.</translation>
@@ -978,17 +893,9 @@ Adresse: %4
         <translation>Netværk</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Åbn Bitcoin-klientens port på routeren automatisk. Dette virker kun, når din router understøtter UPnP og UPnP er aktiveret.</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Konfigurer port vha. UPnP</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="obsolete">Opret forbindelse til Bitcoin-netværket via en SOCKS-proxy (f.eks. ved tilslutning gennem Tor)</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -1091,10 +998,6 @@ Adresse: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Brugergrænsefladesproget kan angives her. Denne indstilling træder først i kraft, når Bitcoin genstartes.</translation>
-    </message>
-    <message>
         <location line="-22"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>Enhed at vise beløb i:</translation>
@@ -1103,10 +1006,6 @@ Adresse: %4
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Vælg den standard underopdelingsenhed, som skal vises i brugergrænsefladen og ved afsendelse af bitcoins.</translation>
-    </message>
-    <message>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation type="obsolete">Afgør hvorvidt Bitcoin-adresser skal vises i transaktionslisten eller ej.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1161,10 +1060,6 @@ Adresse: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Denne indstilling træder i kraft, efter Bitcoin genstartes.</translation>
-    </message>
-    <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>Ugyldig proxy-adresse</translation>
@@ -1176,10 +1071,6 @@ Adresse: %4
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Formular</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Bitcoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
         <location line="+92"/>
@@ -1236,10 +1127,6 @@ Adresse: %4
 </context>
 <context>
     <name>PaymentServer</name>
-    <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="obsolete">Kan ikke starte bitcoin: click-to-pay-håndtering</translation>
-    </message>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start bytecoin: click-to-pay handler</source>
@@ -1411,10 +1298,6 @@ Adresse: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation type="obsolete">Vis Bitcoin-Qt-hjælpebeskeden for at få en liste over de tilgængelige Bitcoin-kommandolinjeindstillinger.</translation>
-    </message>
-    <message>
         <location line="+3"/>
         <source>&amp;Show</source>
         <translation>Vis</translation>
@@ -1430,30 +1313,14 @@ Adresse: %4
         <translation>Byggedato</translation>
     </message>
     <message>
-        <source>Bitcoin - Debug window</source>
-        <translation type="obsolete">Bitcoin - Fejlsøgningsvindue</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation type="obsolete">Bitcoin Core</translation>
-    </message>
-    <message>
         <location line="+200"/>
         <source>Debug log file</source>
         <translation>Fejlsøgningslogfil</translation>
     </message>
     <message>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="obsolete">Åbn Bitcoin-fejlsøgningslogfilen fra det nuværende datakatalog. Dette kan tage nogle få sekunder for en store logfiler.</translation>
-    </message>
-    <message>
         <location line="+109"/>
         <source>Clear console</source>
         <translation>Ryd konsol</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">Velkommen til Bitcoin RPC-konsollen</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
@@ -1599,10 +1466,6 @@ Adresse: %4
         <translation>Betal til:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Bitcoin-adressen som betalingen skal sendes til (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location line="+94"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1644,10 +1507,6 @@ Adresse: %4
         <translation>Fjern denne modtager</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Indtast en Bitcoin-adresse (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1669,10 +1528,6 @@ Adresse: %4
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Du kan underskrive beskeder med dine Bitcoin-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Bitcoin-adressen som beskeden skal underskrives med (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1732,10 +1587,6 @@ Adresse: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="obsolete">Underskriv denne besked for at bevise, at Bitcoin-adressen tilhører dig</translation>
-    </message>
-    <message>
         <location line="-143"/>
         <source>Sign &amp;Message</source>
         <translation>Underskriv besked</translation>
@@ -1762,14 +1613,6 @@ Adresse: %4
         <translation>Indtast den underskrevne adresse, beskeden (inkluder linjeskift, mellemrum mv. nøjagtigt, som de fremgår) og underskriften for at efterprøve beskeden. Vær forsigtig med ikke at lægge mere i underskriften end besked selv, så du undgår at blive narret af et man-in-the-middle-angreb.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Bitcoin-adressen som beskeden er underskrevet med (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="obsolete">Efterprøv beskeden for at sikre, at den er underskrevet med den angivne Bitcoin-adresse</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation>Efterprøv besked</translation>
@@ -1780,17 +1623,9 @@ Adresse: %4
         <translation>Nulstil alle efterprøv besked-indtastningsfelter</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Indtast en Bitcoin-adresse (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Klik &quot;Underskriv besked&quot; for at generere underskriften</translation>
-    </message>
-    <message>
-        <source>Enter Bitcoin signature</source>
-        <translation type="obsolete">Indtast Bitcoin-underskriften</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -1872,10 +1707,6 @@ Adresse: %4
 </context>
 <context>
     <name>SplashScreen</name>
-    <message>
-        <source>The Bitcoin developers</source>
-        <translation type="obsolete">Bitcoin-udviklerne</translation>
-    </message>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Bytecoin developers</source>
@@ -2430,17 +2261,9 @@ Adresse: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Bitcoin-version</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Anvendelse:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Send kommando til -server eller bitcoind</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2456,14 +2279,6 @@ Adresse: %4
         <location line="+24"/>
         <source>Options:</source>
         <translation>Indstillinger:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Angiv konfigurationsfil (standard: bitcoin.conf)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">Angiv pid-fil (default: bitcoind.pid)</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2536,30 +2351,6 @@ Adresse: %4
         <translation>Accepter forbindelser udefra (standard: 1 hvis hverken -proxy eller -connect)</translation>
     </message>
     <message>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
-</source>
-        <translation type="obsolete">%s, du skal angive en RPC-adgangskode i konfigurationsfilen:
-%s
-Det anbefales, at du bruger nedenstående, tilfældige adgangskode:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(du behøver ikke huske denne adgangskode)
-Brugernavnet og adgangskode MÅ IKKE være det samme.
-Hvis filen ikke eksisterer, opret den og giv ingen andre end ejeren læserettighed.
-Det anbefales også at angive alertnotify, så du påmindes om problemer;
-f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
-</translation>
-    </message>
-    <message>
         <location line="-63"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Der opstod en fejl ved angivelse af RPC-porten %u til at lytte på IPv6, falder tilbage til IPv4: %s</translation>
@@ -2568,10 +2359,6 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Tildel til den givne adresse og lyt altid på den. Brug [vært]:port-notation for IPv6</translation>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Kan ikke opnå lås på datakatalog %s. Bitcoin er sandsynligvis allerede startet.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2612,10 +2399,6 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Advarsel: Viste transaktioner kan være ukorrekte! Du eller andre knuder kan have behov for at opgradere.</translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">Advarsel: Undersøg venligst, at din computers dato og klokkeslæt er korrekt indstillet! Hvis der er fejl i disse, vil Bitcoin ikke fungere korrekt.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2923,10 +2706,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Tilføj fejlsøgningsoutput med tidsstempel</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="obsolete">SSL-indstillinger: (se Bitcoin Wiki for SSL-opsætningsinstruktioner)</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation>Angiv version af SOCKS-proxyen (4-5, standard: 5)</translation>
@@ -3117,14 +2896,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebog ødelagt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Bitcoin</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">Det var nødvendigt at genskrive tegnebogen: genstart Bitcoin for at gennemføre</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>Fejl ved indlæsning af wallet.dat</translation>
@@ -3178,10 +2949,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Tilføj en knude til at forbinde til og forsøg at holde forbindelsen åben</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Kunne ikke tildele %s på denne computer. Bitcoin kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="+39"/>

@@ -5,14 +5,6 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin</source>
-        <translation type="obsolete">Bitcoinist</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="obsolete">&lt;b&gt;Bitcoini&lt;/b&gt; versioon</translation>
-    </message>
-    <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bytecoin</source>
         <translation type="unfinished"></translation>
@@ -92,10 +84,6 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>&amp;Uus aadress</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="obsolete">Maksete saamiseks kasutatavad Bitcoini aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
-    </message>
-    <message>
         <location line="+14"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Aadressi kopeerimine</translation>
@@ -104,10 +92,6 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
         <translation>Kuva %QR kood</translation>
-    </message>
-    <message>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation type="obsolete">Allkirjasta sõnum, et tõestada Bitconi aadressi olemasolu.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -135,10 +119,6 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation type="obsolete">Kinnita sõnum tõestamaks selle allkirjastatust määratud Bitcoini aadressiga.</translation>
-    </message>
-    <message>
         <location line="-41"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Kinnita Sõnum</translation>
@@ -147,10 +127,6 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>&amp;Kustuta</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="obsolete">Need on sinu Bitcoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+58"/>
@@ -284,10 +260,6 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Kinnita rahakoti krüpteering</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="obsolete">Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA BITCOINID&lt;/b&gt;!</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Kas soovid oma rahakoti krüpteerida?</translation>
@@ -318,10 +290,6 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <location line="+58"/>
         <source>Wallet encrypted</source>
         <translation>Rahakott krüpteeritud</translation>
-    </message>
-    <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="obsolete">Bitcoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista bitcoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -368,17 +336,17 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+239"/>
+        <location filename="../bitcoingui.cpp" line="+238"/>
         <source>Sign &amp;message...</source>
         <translation>Signeeri &amp;sõnum</translation>
     </message>
     <message>
-        <location line="+304"/>
+        <location line="+314"/>
         <source>Synchronizing with network...</source>
         <translation>Võrgusünkimine...</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-385"/>
         <source>&amp;Overview</source>
         <translation>&amp;Ülevaade</translation>
     </message>
@@ -418,11 +386,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Väljumine</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation type="obsolete">Kuva info Bitcoini kohta</translation>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>About &amp;Qt</source>
         <translation>Teave &amp;Qt kohta</translation>
     </message>
@@ -452,7 +416,27 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>&amp;Salafraasi muutmine</translation>
     </message>
     <message>
-        <location line="+309"/>
+        <location line="+13"/>
+        <source>&amp;Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Solo mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>&amp;Pool Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open pool mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+308"/>
         <source>Importing blocks from disk...</source>
         <translation>Impordi blokid kettalt...</translation>
     </message>
@@ -462,15 +446,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="obsolete">Saada münte Bitcoini aadressile</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation type="obsolete">Muuda Bitcoini seadeid</translation>
-    </message>
-    <message>
-        <location line="-313"/>
+        <location line="-323"/>
         <source>Backup wallet to another location</source>
         <translation>Varunda rahakott teise asukohta</translation>
     </message>
@@ -495,11 +471,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation type="obsolete">Bitcoin</translation>
-    </message>
-    <message>
-        <location line="-168"/>
+        <location line="-167"/>
         <source>Wallet</source>
         <translation>Rahakott</translation>
     </message>
@@ -519,11 +491,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>&amp;Aadressid</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin</source>
-        <translation type="obsolete">%Bitcoinist</translation>
-    </message>
-    <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Näita / Peida</translation>
     </message>
@@ -538,15 +506,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="obsolete">Omandi tõestamiseks allkirjasta sõnumid oma Bitcoini aadressiga</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="obsolete">Kinnita sõnumid kindlustamaks et need allkirjastati määratud Bitcoini aadressiga</translation>
-    </message>
-    <message>
-        <location line="+42"/>
+        <location line="+46"/>
         <source>&amp;File</source>
         <translation>&amp;Fail</translation>
     </message>
@@ -556,7 +516,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>&amp;Seaded</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>&amp;Help</source>
         <translation>&amp;Abi</translation>
     </message>
@@ -572,18 +532,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation type="obsolete">Bitcoini klient</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="obsolete">
-            <numerusform>%n aktiivne ühendus Bitcoini võrku</numerusform>
-            <numerusform>%n aktiivset ühendust Bitcoini võrku</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+222"/>
+        <location line="+227"/>
         <source>No block source available...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -662,13 +611,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation>Ajakohane</translation>
     </message>
     <message>
-        <location line="-502"/>
-        <location line="+557"/>
+        <location line="-511"/>
+        <location line="+566"/>
         <source>Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-455"/>
+        <location line="-464"/>
         <source>Send coins to a Bytecoin address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -683,7 +632,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;About Bytecoin</source>
         <translation type="unfinished"></translation>
     </message>
@@ -708,27 +657,17 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Open Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open miner to mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
+        <location line="+50"/>
         <source>&amp;Mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+91"/>
         <source>Bytecoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+153"/>
+        <location line="+158"/>
         <source>%n active connection(s) to Bytecoin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -780,10 +719,6 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="obsolete">URI ei suudeta parsida. Põhjuseks võib olla kehtetu Bitcoini aadress või vigased URI parameetrid.</translation>
-    </message>
-    <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Rahakott on &lt;b&gt;krüpteeritud&lt;/b&gt; ning hetkel &lt;b&gt;avatud&lt;/b&gt;</translation>
@@ -792,10 +727,6 @@ Aadress: %4⏎</translation>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Rahakott on &lt;b&gt;krüpteeritud&lt;/b&gt; ning hetkel &lt;b&gt;suletud&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation type="obsolete">Ilmnes kriitiline tõrge. Bitcoin suletakse turvakaalutluste tõttu.</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
@@ -869,10 +800,6 @@ Aadress: %4⏎</translation>
         <translation>Selline aadress on juba olemas: &quot;%1&quot;</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="obsolete">Sisestatud aadress &quot;%1&quot; ei ole Bitcoinis kehtiv.</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not unlock wallet.</source>
         <translation>Rahakotti ei avatud</translation>
@@ -885,10 +812,6 @@ Aadress: %4⏎</translation>
 </context>
 <context>
     <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <source>Bitcoin-Qt</source>
-        <translation type="obsolete">Bitcoini-Qt</translation>
-    </message>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <source>version</source>
@@ -954,14 +877,6 @@ Aadress: %4⏎</translation>
         <translation>Tasu tehingu &amp;fee</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation type="obsolete">Käivita Bitcoin süsteemi logimisel.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="obsolete">&amp;Start Bitcoin sisselogimisel</translation>
-    </message>
-    <message>
         <location line="+69"/>
         <source>Reset all client options to default.</source>
         <translation>Taasta kõik klientprogrammi seadete vaikeväärtused.</translation>
@@ -977,17 +892,9 @@ Aadress: %4⏎</translation>
         <translation>&amp;Võrk</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="obsolete">Bitcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Map port using &amp;UPnP</source>
         <translation>Suuna port &amp;UPnP kaudu</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="obsolete">Kasuta Bitcoini võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
     </message>
     <message>
         <location line="-63"/>
@@ -1090,10 +997,6 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Kasutajaliidese keele valimise koht. Valik rakendub Bitcoini käivitamisel.</translation>
-    </message>
-    <message>
         <location line="-22"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>Summade kuvamise &amp;Unit:</translation>
@@ -1102,10 +1005,6 @@ Aadress: %4⏎</translation>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Vali liideses ning müntide saatmisel kuvatav vaikimisi alajaotus.</translation>
-    </message>
-    <message>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation type="obsolete">Kuvada Bitcoini aadress tehingute loetelus või mitte.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1160,10 +1059,6 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="obsolete">Tehtud valik rakendub Bitcoini käivitamisel.</translation>
-    </message>
-    <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>Sisestatud kehtetu proxy aadress.</translation>
@@ -1175,10 +1070,6 @@ Aadress: %4⏎</translation>
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Vorm</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="obsolete">Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
         <location line="+92"/>
@@ -1235,10 +1126,6 @@ Aadress: %4⏎</translation>
 </context>
 <context>
     <name>PaymentServer</name>
-    <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="obsolete">Bitcoin ei käivitu: vajuta-maksa toiming</translation>
-    </message>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start bytecoin: click-to-pay handler</source>
@@ -1410,10 +1297,6 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation type="obsolete">Näita kehtivate käsurea valikute kuvamiseks Bitcoini-Qt abiteksti</translation>
-    </message>
-    <message>
         <location line="+3"/>
         <source>&amp;Show</source>
         <translation>&amp;Kuva</translation>
@@ -1429,30 +1312,14 @@ Aadress: %4⏎</translation>
         <translation>Valmistusaeg</translation>
     </message>
     <message>
-        <source>Bitcoin - Debug window</source>
-        <translation type="obsolete">Bitcoin - debugimise aken</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation type="obsolete">Bitcoini tuumik</translation>
-    </message>
-    <message>
         <location line="+200"/>
         <source>Debug log file</source>
         <translation>Debugimise logifail</translation>
     </message>
     <message>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="obsolete">Ava Bitcoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
-    </message>
-    <message>
         <location line="+109"/>
         <source>Clear console</source>
         <translation>Puhasta konsool</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="obsolete">Teretulemast Bitcoini RPC konsooli.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
@@ -1598,10 +1465,6 @@ Aadress: %4⏎</translation>
         <translation>Maksa &amp;:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Tehingu saaja aadress (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location line="+94"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1643,10 +1506,6 @@ Aadress: %4⏎</translation>
         <translation>Saaja eemaldamine</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Sisesta Bitcoini aadress (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bytecoin address (e.g. 8WDppREkpf9PMMJi29AcnnCLgTg71nXdZ7)</source>
         <translation type="unfinished"></translation>
@@ -1668,10 +1527,6 @@ Aadress: %4⏎</translation>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Omandiõigsuse tõestamiseks saad sõnumeid allkirjastada oma aadressiga. Ettevaatust petturitega, kes üritavad saada sinu allkirja endale saada. Allkirjasta ainult korralikult täidetud avaldusi, millega nõustud.</translation>
-    </message>
-    <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Sõnumi signeerimise aadress (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1731,10 +1586,6 @@ Aadress: %4⏎</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="obsolete">Allkirjasta sõnum Bitcoini aadressi sulle kuulumise tõestamiseks</translation>
-    </message>
-    <message>
         <location line="-143"/>
         <source>Sign &amp;Message</source>
         <translation>Allkirjasta &amp;Sõnum</translation>
@@ -1761,14 +1612,6 @@ Aadress: %4⏎</translation>
         <translation>Kinnitamiseks sisesta allkirjastamise aadress, sõnum (kindlasti kopeeri täpselt ka reavahetused, tühikud, tabulaatorid jms) ning allolev signatuur.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Aadress, millega sõnum allkirjastati (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="obsolete">Kinnita sõnum tõestamaks selle allkirjastatust määratud Bitcoini aadressiga.</translation>
-    </message>
-    <message>
         <location line="+64"/>
         <source>Verify &amp;Message</source>
         <translation>Kinnita &amp;Sõnum</translation>
@@ -1779,17 +1622,9 @@ Aadress: %4⏎</translation>
         <translation>Tühjenda kõik sõnumi kinnitamise väljad</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="obsolete">Sisesta Bitcoini aadress (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
-    </message>
-    <message>
         <location filename="../signverifymessagedialog.cpp" line="+28"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Signatuuri genereerimiseks vajuta &quot;Allkirjasta Sõnum&quot;</translation>
-    </message>
-    <message>
-        <source>Enter Bitcoin signature</source>
-        <translation type="obsolete">Sisesta Bitcoini allkiri</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2425,17 +2260,9 @@ Aadress: %4⏎</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Bitcoin version</source>
-        <translation type="obsolete">Bitcoini versioon</translation>
-    </message>
-    <message>
         <location filename="../bitcoinstrings.cpp" line="+196"/>
         <source>Usage:</source>
         <translation>Kasutus:</translation>
-    </message>
-    <message>
-        <source>Send command to -server or bitcoind</source>
-        <translation type="obsolete">Saada käsklus -serverile või bitcoindile</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -2451,14 +2278,6 @@ Aadress: %4⏎</translation>
         <location line="+24"/>
         <source>Options:</source>
         <translation>Valikud:</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="obsolete">Täpsusta sätete fail (vaikimisi: bitcoin.conf)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="obsolete">Täpsusta PID fail (vaikimisi: bitcoin.pid)</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -2531,30 +2350,6 @@ Aadress: %4⏎</translation>
         <translation>Luba välisühendusi (vaikeväärtus: 1 kui puudub -proxy või -connect)</translation>
     </message>
     <message>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
-</source>
-        <translation type="obsolete">%s, sul tuleb rpcpassword määrata seadete failis:
-%s
-Soovitatav on kasutada järgmist juhuslikku parooli:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(seda parooli ei pea meeles pidama)
-Kasutajanimi ning parool EI TOHI kattuda.
-Kui faili ei leita, loo see ainult-omaniku-loetavas failiõigustes .
-Soovitatav on seadistada tõrgete puhul teavitus;
-nt: alertnotify=echo %%s | email -s &quot;Bitcoin Alert&quot; admin@foo.com
-</translation>
-    </message>
-    <message>
         <location line="-63"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>RPC pordi %u kuulamiseks seadistamisel ilmnes viga IPv6&apos;l, lülitumine tagasi IPv4&apos;le : %s</translation>
@@ -2563,10 +2358,6 @@ nt: alertnotify=echo %%s | email -s &quot;Bitcoin Alert&quot; admin@foo.com
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Määratud aadressiga sidumine ning sellelt kuulamine. IPv6 jaoks kasuta vormingut [host]:port</translation>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation type="obsolete">Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on Bitcoin juba avatud.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2607,10 +2398,6 @@ nt: alertnotify=echo %%s | email -s &quot;Bitcoin Alert&quot; admin@foo.com
         <location line="+3"/>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Hoiatus: Kuvatavad tehingud ei pruugi olla korrektsed! Sina või node&apos;id peate tegema uuenduse.</translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="obsolete">Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis Bitcoin ei tööta korralikult</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2918,10 +2705,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Varusta debugi väljund ajatempliga</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="obsolete">SSL valikud: (vaata Bitcoini Wikist või SSL sätete juhendist)</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
         <translation>Vali turva proxi SOCKS versioon (4-5, vaikeväärtus: 5)</translation>
@@ -3112,14 +2895,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <translation>Viga wallet.dat käivitamisel. Vigane rahakkott</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="obsolete">Viga wallet.dat käivitamisel: Rahakott nõuab Bitcoini uusimat versiooni</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="obsolete">Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita Bitcoin</translation>
-    </message>
-    <message>
         <location line="-1"/>
         <source>Error loading wallet.dat</source>
         <translation>Viga wallet.dat käivitamisel</translation>
@@ -3173,10 +2948,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bytecoin Alert&quot; admin@foo
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Lisa node ning hoia ühendus avatud</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="obsolete">%s&apos;ga ei ole võimalik sellest arvutist siduda. Bitcoin juba töötab.</translation>
     </message>
     <message>
         <location line="+39"/>

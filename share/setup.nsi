@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 1.0.0.$WCREV$
+!define VERSION 1.0.1.$WCREV$
 !define COMPANY "Bytecoin project"
 !define URL http://www.byte-coin.org/
 
@@ -167,10 +167,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "bytecoin" "URL Protocol" ""
-    WriteRegStr HKCR "bytecoin" "" "URL:Bytecoin"
-    WriteRegStr HKCR "bytecoin\DefaultIcon" "" $INSTDIR\bytecoin-qt.exe
-    WriteRegStr HKCR "bytecoin\shell\open\command" "" '"$INSTDIR\bytecoin-qt.exe" "%1"'
+#    WriteRegStr HKCR "bytecoin" "URL Protocol" ""
+#    WriteRegStr HKCR "bytecoin" "" "URL:Bytecoin"
+#    WriteRegStr HKCR "bytecoin\DefaultIcon" "" $INSTDIR\bytecoin-qt.exe
+#    WriteRegStr HKCR "bytecoin\shell\open\command" "" '"$INSTDIR\bytecoin-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
