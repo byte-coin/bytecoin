@@ -11,8 +11,8 @@ strip bytecoind.exe
 copy /Y bytecoind.exe ..\release\
 cd ..
 
-del build\bitcoin-qt_res.o
-qmake bytecoin-qt.pro
+mingw32-make -f Makefile.Release clean
+qmake bytecoin-qt.pro USE_QRCODE=1
 mingw32-make -f Makefile.Release
 
 cd share

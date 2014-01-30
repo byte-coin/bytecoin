@@ -426,17 +426,7 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-4"/>
-        <source>&amp;Pool Mining Tutorial</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open pool mining tutorial</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+308"/>
+        <location line="+305"/>
         <source>Importing blocks from disk...</source>
         <translation>Importando blocos do disco...</translation>
     </message>
@@ -506,7 +496,17 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Encriptar as chaves privadas que pertencem à sua carteira</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+14"/>
+        <source>&amp;Mining Tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open mining tutorial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>&amp;File</source>
         <translation>&amp;Ficheiro</translation>
     </message>

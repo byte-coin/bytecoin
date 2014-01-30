@@ -431,17 +431,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>独自挖矿</translation>
     </message>
     <message>
-        <location line="-4"/>
-        <source>&amp;Pool Mining Tutorial</source>
-        <translation>矿池挖矿教程</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open pool mining tutorial</source>
-        <translation>打开矿池挖矿教程</translation>
-    </message>
-    <message>
-        <location line="+308"/>
+        <location line="+305"/>
         <source>Importing blocks from disk...</source>
         <translation>正在从磁盘导入数据块...</translation>
     </message>
@@ -552,7 +542,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>校验消息，确保该消息是由指定的百特币地址所有者签名的</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+5"/>
+        <source>&amp;Mining Tutorial</source>
+        <translation>挖矿教程</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open mining tutorial</source>
+        <translation>打开挖矿教程</translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>&amp;File</source>
         <translation>文件</translation>
     </message>

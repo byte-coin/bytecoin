@@ -243,8 +243,8 @@ void BitcoinGUI::createActions()
     openRPCConsoleAction = new QAction(QIcon(":/icons/debugwindow"), tr("&Debug window"), this);
     openRPCConsoleAction->setStatusTip(tr("Open debugging and diagnostic console"));
 
-    openMiningTutorialAction = new QAction(QIcon(":/icons/tutorial"), tr("&Pool Mining Tutorial"), this);
-    openMiningTutorialAction->setStatusTip(tr("Open pool mining tutorial"));
+    openMiningTutorialAction = new QAction(QIcon(":/icons/tutorial"), tr("&Mining Tutorial"), this);
+    openMiningTutorialAction->setStatusTip(tr("Open mining tutorial"));
 
     openMinerAction = new QAction(QIcon(":/icons/mining"), tr("&Solo Mining"), this);
     openMinerAction->setStatusTip(tr("Solo mining"));
@@ -291,7 +291,7 @@ void BitcoinGUI::createMenuBar()
     QMenu *mining = appMenuBar->addMenu(tr("&Mining"));
     mining->addAction(openMiningTutorialAction);
 #ifdef WIN32
-    mining->addAction(openMinerAction);
+    //mining->addAction(openMinerAction);
 #endif
 
     QMenu *help = appMenuBar->addMenu(tr("&Help"));
