@@ -2,7 +2,7 @@
 
 svn up
 
-VERSION=1.0.2
+VERSION=1.0.3
 
 REVISION_CURRENT=`svn info --xml . | grep "revision" | awk 'END{print $NF}' | sed 's/revision="//' | sed 's/">//'`
 REVISION_OLD=`grep CLIENT_VERSION_BUIL src/clientversion.h | awk -F" "  '{print $3}'`

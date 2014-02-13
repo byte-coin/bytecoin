@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 1.0.2.$WCREV$
+!define VERSION 1.0.3.$WCREV$
 !define COMPANY "Bytecoin project"
 !define URL http://www.byte-coin.org/
 
