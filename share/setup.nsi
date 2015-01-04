@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 1.0.3.$WCREV$
+!define VERSION 1.0.4.$WCREV$
 !define COMPANY "Bytecoin project"
 !define URL http://www.byte-coin.org/
 
@@ -131,15 +131,15 @@ Section -Main SEC0000
     SetOutPath $INSTDIR\src
     File /r /x *.exe /x *.o /x *.qm /x *.a /x *.in /x *.bak ../src\*.*
     SetOutPath $DOCUMENTS\Bytecoin
-    SetOverwrite off
-    File bytecoin.conf
+#    SetOverwrite off
+#    File bytecoin.conf
 #    SetOverwrite on
 #    SetOutPath $DOCUMENTS
 #    File /r BytecoinMiner
 #    SetOverwrite off
 #    SetOutPath $DOCUMENTS\BytecoinMiner
 #    File ¿ó³ØÍÚ¿ó.bat
-    SetOverwrite on
+#    SetOverwrite on
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 

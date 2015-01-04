@@ -7,6 +7,7 @@ SubWCRev . src/version.cpp.in src/version.cpp -f
 
 cd src
 mingw32-make -f makefile.mingw
+ping 127.0.0.1 > nul
 strip bytecoind.exe
 copy /Y bytecoind.exe ..\release\
 cd ..
